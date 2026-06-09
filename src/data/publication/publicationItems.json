@@ -1,0 +1,35 @@
+[
+    {
+        "title": "MIDILM: (TODO full title)",
+        "category": "gen music",
+        "year" : "2026",
+        "Authors": "Dooho Choi*, (co-authors TODO) (* co-first author)",
+        "bookTitle": "AAAI 2026",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://PLACEHOLDER"
+        }
+    },
+    {
+        "title": "PixTention: Dynamic Pixel-level Adapter using Attention Maps",
+        "category": "gen cv",
+        "year" : "2025",
+        "Authors": "Dooho Choi, Yunsick Sung",
+        "bookTitle": "Image and Vision Computing (IVC), 163:105746, 2025",
+        "bookCategory": "Journal",
+        "material" : {
+            "paper": "https://doi.org/10.1016/j.imavis.2025.105746"
+        }
+    },
+    {
+        "title": "LoRA Fusion: Enhancing Image Generation",
+        "category": "gen cv",
+        "year" : "2024",
+        "Authors": "Dooho Choi, Jeonghyeon Im, Yunsick Sung",
+        "bookTitle": "Mathematics, 2024",
+        "bookCategory": "Journal",
+        "material" : {
+            "paper": "https://PLACEHOLDER"
+        }
+    }
+]

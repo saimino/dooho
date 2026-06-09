@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "title":"Dooho Choi 최두호",
+        "describtion":"I'm an MSc student at Dongguk University, working on Controllable Multimodal Generation.",
+        "detail": "My research focuses on controllable multimodal generation and text-to-MIDI symbolic music generation.",
+        "img":"profile.png",
+        "ko_name":"최두호",
+        "en_name":"Dooho Choi",
+        "material":{
+            "google scholar":"https://scholar.google.com/PLACEHOLDER",
+            "github":"https://github.com/PLACEHOLDER",
+            "linkedin":"https://www.linkedin.com/in/PLACEHOLDER/"
+        }
+    }
+]
