@@ -1,3 +1,22 @@
 {
-    "Service" : []
+    "Service" : [
+        {
+            "title": "Reviewer — Engineering Applications of Artificial Intelligence (EAAI)",
+            "contents": "Journal Reviewer, Elsevier",
+            "date": "2026 - Present",
+            "link": ""
+        },
+        {
+            "title": "Reviewer — IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)",
+            "contents": "Journal Reviewer, IEEE",
+            "date": "2026 - Present",
+            "link": ""
+        },
+        {
+            "title": "Talk & Exhibition — 2025 AI Festa",
+            "contents": "Exhibited and presented \"Natural-language-based MIDI Generation Framework\" (Team MIDILM), COEX Hall A",
+            "date": "Sep 30 - Oct 2, 2025",
+            "link": "https://cs.dongguk.edu/article/webz/detail/1241"
+        }
+    ]
 }

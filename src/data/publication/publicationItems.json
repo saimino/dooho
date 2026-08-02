@@ -1,14 +1,12 @@
 [
     {
-        "title": "MIDILM: (TODO full title)",
+        "title": "MIDILM: A Dual-Path Model for Controllable Text-to-MIDI Generation",
         "category": "gen music",
         "year" : "2026",
-        "Authors": "Dooho Choi*, (co-authors TODO) (* co-first author)",
-        "bookTitle": "AAAI 2026",
+        "Authors": "Shuyu Li*, Dooho Choi*, Yunsick Sung (* co-first author)",
+        "bookTitle": "AAAI 2026 (Main Track)",
         "bookCategory": "Conferences and Workshops",
-        "material" : {
-            "paper": "https://PLACEHOLDER"
-        }
+        "material" : ""
     },
     {
         "title": "PixTention: Dynamic Pixel-level Adapter using Attention Maps",
@@ -22,14 +20,34 @@
         }
     },
     {
+        "title": "Enhanced BLIP-2 Optimization Using LoRA for Generating Dashcam Captions",
+        "category": "gen cv",
+        "year" : "2025",
+        "Authors": "Minki Cho, Sungwoo Kim, Dooho Choi, Yunsick Sung",
+        "bookTitle": "Applied Sciences, 15(7):3712, 2025",
+        "bookCategory": "Journal",
+        "material" : {
+            "paper": "https://doi.org/10.3390/app15073712"
+        }
+    },
+    {
+        "title": "P-Tuning v2 기반 MusicGen 프레임워크 설계 연구",
+        "category": "gen music",
+        "year" : "2025",
+        "Authors": "Jihyun An, Dooho Choi, Yunsick Sung",
+        "bookTitle": "KICS Conference, 2025",
+        "bookCategory": "Conferences and Workshops",
+        "material" : ""
+    },
+    {
         "title": "LoRA Fusion: Enhancing Image Generation",
         "category": "gen cv",
         "year" : "2024",
-        "Authors": "Dooho Choi, Jeonghyeon Im, Yunsick Sung",
-        "bookTitle": "Mathematics, 2024",
+        "Authors": "Dooho Choi*, Jeonghyeon Im*, Yunsick Sung (* co-first author)",
+        "bookTitle": "Mathematics, 12(22):3474, 2024",
         "bookCategory": "Journal",
         "material" : {
-            "paper": "https://PLACEHOLDER"
+            "paper": "https://doi.org/10.3390/math12223474"
         }
     }
 ]

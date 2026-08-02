@@ -1,3 +1,28 @@
 {
-    "Honors" : []
+    "Honors" : [
+        {
+            "title": "AI Champion Program — Top 100 (of 630 teams)",
+            "contents": "Ministry of Science and ICT",
+            "date": "2025",
+            "link": "https://cs.dongguk.edu/article/webz/detail/1241"
+        },
+        {
+            "title": "Dean's Award",
+            "contents": "Dongguk University — ICIP & Capstone Design",
+            "date": "2023",
+            "link": ""
+        },
+        {
+            "title": "Excellence Award, SK Telecom Capstone",
+            "contents": "AI Blog Assistant using LLaMA2",
+            "date": "2023",
+            "link": ""
+        },
+        {
+            "title": "Patents & Software Copyright",
+            "contents": "Symbolic Music Generation Method and Device — KR 10-2025-0139998 (Filed, 2025)\nSymbolic Music Prediction Model Training Method — KR 10-2025-0139997 (Filed, 2025)\nLLM-based Information Retrieval and QA System — KR 10-2024-0118146 (Filed, 2024)\nLLM-based Information Retrieval and QA System — Software Copyright C-2024-026547 (Registered, 2024)",
+            "date": "",
+            "link": ""
+        }
+    ]
 }
