@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/dooho/static/css/main.33e4c335.chunk.css",
-    "main.js": "/dooho/static/js/main.51e5b865.chunk.js",
-    "main.js.map": "/dooho/static/js/main.51e5b865.chunk.js.map",
+    "main.js": "/dooho/static/js/main.a52a327f.chunk.js",
+    "main.js.map": "/dooho/static/js/main.a52a327f.chunk.js.map",
     "runtime-main.js": "/dooho/static/js/runtime-main.eb6a93fb.js",
     "runtime-main.js.map": "/dooho/static/js/runtime-main.eb6a93fb.js.map",
-    "static/js/2.29964236.chunk.js": "/dooho/static/js/2.29964236.chunk.js",
-    "static/js/2.29964236.chunk.js.map": "/dooho/static/js/2.29964236.chunk.js.map",
+    "static/js/2.1603515b.chunk.js": "/dooho/static/js/2.1603515b.chunk.js",
+    "static/js/2.1603515b.chunk.js.map": "/dooho/static/js/2.1603515b.chunk.js.map",
     "index.html": "/dooho/index.html",
     "static/css/main.33e4c335.chunk.css.map": "/dooho/static/css/main.33e4c335.chunk.css.map",
-    "static/js/2.29964236.chunk.js.LICENSE.txt": "/dooho/static/js/2.29964236.chunk.js.LICENSE.txt"
+    "static/js/2.1603515b.chunk.js.LICENSE.txt": "/dooho/static/js/2.1603515b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.eb6a93fb.js",
-    "static/js/2.29964236.chunk.js",
+    "static/js/2.1603515b.chunk.js",
     "static/css/main.33e4c335.chunk.css",
-    "static/js/main.51e5b865.chunk.js"
+    "static/js/main.a52a327f.chunk.js"
   ]
 }
