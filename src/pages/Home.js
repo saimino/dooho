@@ -8,8 +8,11 @@ import Footer from '../blocks/footer/Footer';
 import Prof from '../blocks/peopleCard/Prof'
 import ProfData from '../data/people/prof.json'
 
-import News from '../blocks/news/News'
-import NewsInfoData from '../data/news/newsinfo.json';
+import Intro from '../blocks/intro/Intro'
+import IntroInfoData from '../data/intro/introInfo.json';
+
+import Portfolio from '../blocks/portfolio/Portfolio'
+import PortfolioItemData from '../data/portfolio/portfolioItems.json';
 
 import PublicationTable from '../blocks/publicationTable/PublicationTable';
 
@@ -41,7 +44,8 @@ const Home = () => {
 
             <main id="main" className="site-main font-family">
                 <Prof ProfData={ProfData}/>
-                <News NewsInfoData = {NewsInfoData}/>
+                <Intro IntroInfoData={IntroInfoData}/>
+                <Portfolio PortfolioItemData={PortfolioItemData}/>
                 <PublicationTable/>
             </main>
 

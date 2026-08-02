@@ -1,0 +1,17 @@
+{
+    "statements": [
+        {
+            "headline": "<mark>멀티모달 생성 모델</mark>을 연구하는 AI 연구자입니다 🧑‍🔬",
+            "body": "텍스트로 음악·이미지를 제어 가능하게 생성하는 연구를 합니다. 텍스트-투-MIDI 생성 연구 <b>MIDILM이 AAAI 2026 Main Track에 공동 1저자로 채택</b>되었고, 픽셀 단위 동적 어댑터 연구 <b>PixTention을 Image and Vision Computing(IF 4.7)에 1저자로 게재</b>하는 등 <b>국제 학술지·학회 논문 5편</b>과 <b>특허 3건 출원, SW 저작권 1건 등록</b>의 성과를 만들었습니다."
+        },
+        {
+            "headline": "효율적인 <mark>적응(Adaptation)</mark>으로 큰 모델을 작게 움직입니다 💪",
+            "body": "LoRA, P-Tuning v2, Adapter 등 <b>PEFT(Parameter-Efficient Fine-Tuning)</b> 관점에서 LLM과 멀티모달 모델을 연구합니다. 국제 저널 <b>EAAI(Elsevier)·TCSVT(IEEE)의 리뷰어</b>로 활동하며, 과학기술정보통신부 <b>AI Champion Program에 우수 연구팀(100팀/630팀)</b>으로 선발되어 <b>2025 AI Festa(COEX)에서 전시·발표</b>했습니다."
+        }
+    ],
+    "skills": [
+        "Python, PyTorch, Hugging Face Transformers / Diffusers / PEFT",
+        "PEFT — LoRA, P-Tuning v2, Adapter 설계·구현",
+        "LLM · Diffusion · Vision-Language Model · Symbolic Music(MIDI) Generation"
+    ]
+}
