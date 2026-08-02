@@ -1,1 +1,21 @@
-[]
+[
+    {
+        "institution": "LMM Lab, Dongguk University",
+        "position": "M.S. Research Student — LLM, Multimodal Model, Adaptation (PEFT)",
+        "location": "Seoul, Korea",
+        "duration": "Mar 2024 - Present"
+    },
+    {
+        "institution": "AI Champion Program, Ministry of Science and ICT",
+        "position": "Team MIDILM — Selected as a Top-100 team (of 630); exhibited and presented at 2025 AI Festa (COEX)",
+        "location": "Seoul, Korea",
+        "duration": "Jul 2025 - Oct 2025",
+        "link": "https://cs.dongguk.edu/article/webz/detail/1241"
+    },
+    {
+        "institution": "LMM Lab, Dongguk University",
+        "position": "Undergraduate Research Intern",
+        "location": "Seoul, Korea",
+        "duration": "Aug 2023 - Feb 2024"
+    }
+]

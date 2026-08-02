@@ -5,8 +5,33 @@
         "link": ""
     },
     {
+        "date":"2026",
+        "contents":"Started serving as a reviewer for EAAI (Elsevier) and IEEE TCSVT.",
+        "link": ""
+    },
+    {
+        "date":"2025",
+        "contents":"Team MIDILM exhibited and presented at 2025 AI Festa (COEX)!",
+        "link": "https://cs.dongguk.edu/article/webz/detail/1241"
+    },
+    {
+        "date":"2025",
+        "contents":"Selected as a Top-100 team (of 630) in the AI Champion Program (Ministry of Science and ICT)!",
+        "link": ""
+    },
+    {
         "date":"2025",
         "contents":"PixTention published in Image and Vision Computing (IVC)!",
         "link": "https://doi.org/10.1016/j.imavis.2025.105746"
+    },
+    {
+        "date":"2025",
+        "contents":"Enhanced BLIP-2 Optimization Using LoRA published in Applied Sciences!",
+        "link": "https://doi.org/10.3390/app15073712"
+    },
+    {
+        "date":"2024",
+        "contents":"LoRA Fusion published in Mathematics!",
+        "link": "https://doi.org/10.3390/math12223474"
     }
 ]

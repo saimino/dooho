@@ -46,11 +46,9 @@ const About = () => {
             <main id="main" className="site-main">
                 <Prof ProfData={ProfData}/>
                 <Edu EduInfoData = {EduInfoData}/>
-                {/* Empty for now — uncomment and fill matching JSON in src/data/ when available:
                 <Ind IndInfoData = {IndInfoData}/>
                 <Service ServiceInfoData = {ServiceInfoData}/>
                 <Hnr HnrInfoData = {HnrInfoData}/>
-                */}
                 <div className="wrapper">
 
                 </div>
