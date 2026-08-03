@@ -7,17 +7,10 @@ import Footer from '../blocks/footer/Footer';
 import Prof from '../blocks/peopleCard/Prof'
 import ProfData from '../data/people/prof.json'
 
-import Hnr from '../blocks/honor/Hnr';
-import HnrInfoData from '../data/honor/hnrInfo.json';
+import Intro from '../blocks/intro/Intro'
+import IntroInfoData from '../data/intro/introInfo.json';
 
-import Edu from "../blocks/education/Edu"
-import EduInfoData from '../data/education/eduInfo.json';
-
-import Ind from "../blocks/industry/Ind"
-import IndInfoData from '../data/industry/indInfo.json';
-
-import Service from '../blocks/service/Service';
-import ServiceInfoData from '../data/service/serviceInfo.json';
+import CvViewer from '../blocks/cv/CvViewer';
 
 const About = () => {
     document.body.classList.add( 'about' );
@@ -45,13 +38,8 @@ const About = () => {
 
             <main id="main" className="site-main">
                 <Prof ProfData={ProfData}/>
-                <Edu EduInfoData = {EduInfoData}/>
-                <Ind IndInfoData = {IndInfoData}/>
-                <Service ServiceInfoData = {ServiceInfoData}/>
-                <Hnr HnrInfoData = {HnrInfoData}/>
-                <div className="wrapper">
-
-                </div>
+                <Intro IntroInfoData={IntroInfoData} showSkills={false}/>
+                <CvViewer/>
             </main>
 
             <Footer />

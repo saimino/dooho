@@ -44,7 +44,7 @@ const Home = () => {
 
             <main id="main" className="site-main font-family">
                 <Prof ProfData={ProfData}/>
-                <Intro IntroInfoData={IntroInfoData}/>
+                <Intro IntroInfoData={IntroInfoData} showStatements={false}/>
                 <Portfolio PortfolioItemData={PortfolioItemData}/>
                 <PublicationTable/>
             </main>

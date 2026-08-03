@@ -139,3 +139,32 @@
         .portfolio-hero-mark .big { font-size: 1.4rem; }
     }
 }
+
+/* ---------- CV viewer (About) ---------- */
+.cv-viewer {
+    .cv-viewer-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 1.1rem;
+
+        h4 { margin-bottom: 0; }
+
+        .cv-download {
+            font-size: 0.85rem;
+            padding: 0.45rem 1.1rem;
+            border-radius: 999px;
+        }
+    }
+
+    .cv-viewer-frame {
+        width: 100%;
+        height: 82vh;
+        min-height: 34rem;
+        border: 1px solid #e3e3df;
+        border-radius: 0.8rem;
+        background: #fff;
+    }
+}
