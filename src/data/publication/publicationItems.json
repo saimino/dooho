@@ -7,7 +7,8 @@
         "bookTitle": "AAAI 2026 (Main Track)",
         "bookCategory": "Conferences and Workshops",
         "material": {
-            "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483"
+            "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483",
+            "demo": "https://large-multimodal-model-lab.github.io/MIDILM/"
         }
     },
     {

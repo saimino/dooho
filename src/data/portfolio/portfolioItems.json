@@ -6,7 +6,8 @@
         "title": "MIDILM: Controllable Text-to-MIDI Generation",
         "period": "AAAI 2026 (Main Track) · 공동 1저자 · 2025 ~ 2026",
         "links": {
-            "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483"
+            "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483",
+            "Demo": "https://large-multimodal-model-lab.github.io/MIDILM/"
         },
         "heroTitle": "Text → 🎵 MIDI",
         "heroSub": "Dual-Path Model for Controllable Symbolic Music Generation",
