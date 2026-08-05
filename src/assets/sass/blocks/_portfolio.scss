@@ -269,14 +269,14 @@
 
 /* ---------- about-me: unified intro + life ---------- */
 .about-me {
-    .intro-statement { margin-bottom: 1.7rem; }
+    .intro-headline { margin-bottom: 1.6rem; }
 
-    > .star-list {
-        margin-top: 0.4rem;
-        margin-bottom: 0;
+    .about-paragraph {
+        margin-bottom: 1.8rem;
+        line-height: 1.85;
     }
 
-    .life-photos { margin-top: 1.9rem; }
+    .life-photos { margin-top: 2.8rem; }
 }
 
 /* ---------- image hero (architecture figures) ---------- */
