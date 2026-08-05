@@ -278,3 +278,19 @@
 
     .life-photos { margin-top: 1.9rem; }
 }
+
+/* ---------- image hero (architecture figures) ---------- */
+.portfolio {
+    .portfolio-hero-img {
+        background: #fff;
+        border: 1px solid #e3e3df;
+        display: block;
+        padding: 1rem;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}

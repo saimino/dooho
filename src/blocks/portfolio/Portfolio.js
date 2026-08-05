@@ -24,12 +24,19 @@ const Portfolio = ({PortfolioItemData}) => {
                                 </div>
                             </div>
 
-                            <div className="portfolio-hero" style={{background: item.gradient}}>
-                                <div className="portfolio-hero-mark">
-                                    <div className="big">{item.heroTitle}</div>
-                                    <div className="sub">{item.heroSub}</div>
+                            {item.heroImg ? (
+                                <div className="portfolio-hero portfolio-hero-img">
+                                    <img src={process.env.PUBLIC_URL + '/assets/img/projects/' + item.heroImg}
+                                         alt={item.title} loading="lazy"/>
                                 </div>
-                            </div>
+                            ) : (
+                                <div className="portfolio-hero" style={{background: item.gradient}}>
+                                    <div className="portfolio-hero-mark">
+                                        <div className="big">{item.heroTitle}</div>
+                                        <div className="sub">{item.heroSub}</div>
+                                    </div>
+                                </div>
+                            )}
 
                             <h6>개요 📄</h6>
                             <p className="portfolio-overview" dangerouslySetInnerHTML={{__html: item.overview}} />
