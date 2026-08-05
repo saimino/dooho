@@ -16,6 +16,9 @@ import PortfolioItemData from '../data/portfolio/portfolioItems.json';
 
 import PublicationTable from '../blocks/publicationTable/PublicationTable';
 
+import OtherProjects from '../blocks/portfolio/OtherProjects';
+import OtherProjectsItemData from '../data/portfolio/otherProjectsItems.json';
+
 
 const Home = () => {
     document.body.classList.add( 'home' );
@@ -46,6 +49,7 @@ const Home = () => {
                 <Prof ProfData={ProfData}/>
                 <Intro IntroInfoData={IntroInfoData} showStatements={false}/>
                 <Portfolio PortfolioItemData={PortfolioItemData}/>
+                <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>
                 <PublicationTable/>
             </main>
 

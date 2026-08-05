@@ -26,7 +26,9 @@
         "gradient": "linear-gradient(120deg,#0b7c6d,#3cc4ae 60%,#a8e8dc)",
         "title": "PixTention — Dynamic Pixel-Level Adapter",
         "period": "Image and Vision Computing (IF 4.7), 163:105746 · 1저자 · 2025",
-        "links": { "Paper": "https://doi.org/10.1016/j.imavis.2025.105746" },
+        "links": {
+            "Paper": "https://doi.org/10.1016/j.imavis.2025.105746"
+        },
         "heroTitle": "Attention → Adapter",
         "heroSub": "픽셀 단위로 동적으로 동작하는 어댑터",
         "overview": "<b>어텐션 맵(Attention Map)을 활용해 픽셀 단위로 동적으로 적용되는 어댑터(Adapter)</b>를 제안한 PEFT 연구입니다. 이미지 전역에 균일하게 적용되는 기존 어댑터와 달리, 영역별 중요도에 따라 적응 강도를 달리하여 생성 품질을 높였습니다. SCIE 저널 <b>Image and Vision Computing(IF 4.7)에 1저자로 게재</b>되었습니다. (Dooho Choi, Yunsick Sung)",
@@ -45,7 +47,9 @@
         "gradient": "linear-gradient(120deg,#b04a32,#e8845f 60%,#f7c8a8)",
         "title": "LoRA Fusion — Enhancing Image Generation",
         "period": "Mathematics (IF 2.4), 12(22):3474 · 공동 1저자 · 2024",
-        "links": { "Paper": "https://doi.org/10.3390/math12223474" },
+        "links": {
+            "Paper": "https://doi.org/10.3390/math12223474"
+        },
         "heroTitle": "LoRA + LoRA",
         "heroSub": "복수 LoRA 결합을 통한 이미지 생성 품질 향상",
         "overview": "이미지 생성 모델에서 <b>복수의 LoRA를 효과적으로 결합(Fusion)하여 생성 품질을 향상</b>시키는 연구입니다. 서로 다른 개념을 학습한 LoRA를 함께 사용할 때 발생하는 품질 저하 문제를 다루었으며, MDPI <b>Mathematics(IF 2.4)에 게재</b>되었습니다. (<b>Dooho Choi*</b>, Jeonghyeon Im*, Yunsick Sung — *공동 1저자)",
@@ -57,26 +61,6 @@
         "skills": [
             "Stable Diffusion, LoRA, PyTorch",
             "이미지 생성 평가 지표 및 실험 설계"
-        ]
-    },
-    {
-        "logo": "Q",
-        "accent": "#2f5fb3",
-        "gradient": "linear-gradient(120deg,#274f96,#5b8ae0 60%,#b8cdf5)",
-        "title": "LLM 기반 정보 검색·질의응답(QA) 시스템",
-        "period": "2024 ~ 현재 · 특허 출원 & SW 저작권 등록",
-        "links": {},
-        "heroTitle": "Retrieve → Answer",
-        "heroSub": "LLM 기반 정보 검색과 질의응답",
-        "overview": "LLM을 활용해 문서에서 정보를 검색하고 질의에 응답하는 시스템을 연구·개발했습니다. 성과로 <b>특허 「LLM 기반 정보 검색 및 QA 시스템」(10-2024-0118146) 출원</b>과 <b>SW 저작권(C-2024-026547) 등록</b>을 완료했습니다.",
-        "roles": [
-            "문서 검색과 LLM 응답 생성을 결합한 <b>QA 파이프라인 설계·구현</b>",
-            "연구를 확장하여 <b>한국연구재단(NRF) 「문서 내부 특징을 고려한 LLM 연구」</b> 과제 수행 중 (2025. 09 ~ 현재)",
-            "연구실 산학 과제(AI+X, IITP)와 연계하여 실제 도메인 문서에 적용"
-        ],
-        "skills": [
-            "LLM, RAG(Retrieval-Augmented Generation), Prompt Engineering",
-            "Python, 문서 전처리·임베딩 검색 파이프라인"
         ]
     }
 ]
