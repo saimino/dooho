@@ -10,8 +10,6 @@ import ProfData from '../data/people/prof.json'
 import AboutMe from '../blocks/aboutme/AboutMe';
 import LifeInfoData from '../data/life/lifeInfo.json';
 
-import CvViewer from '../blocks/cv/CvViewer';
-
 const About = () => {
     document.body.classList.add( 'about' );
     document.body.classList.add( 'bg-fixed' );
@@ -39,7 +37,6 @@ const About = () => {
             <main id="main" className="site-main">
                 <Prof ProfData={ProfData}/>
                 <AboutMe LifeInfoData={LifeInfoData}/>
-                <CvViewer/>
             </main>
 
             <Footer />
