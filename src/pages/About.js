@@ -7,13 +7,11 @@ import Footer from '../blocks/footer/Footer';
 import Prof from '../blocks/peopleCard/Prof'
 import ProfData from '../data/people/prof.json'
 
-import Intro from '../blocks/intro/Intro'
+import AboutMe from '../blocks/aboutme/AboutMe';
 import IntroInfoData from '../data/intro/introInfo.json';
+import LifeInfoData from '../data/life/lifeInfo.json';
 
 import CvViewer from '../blocks/cv/CvViewer';
-
-import Life from '../blocks/life/Life';
-import LifeInfoData from '../data/life/lifeInfo.json';
 
 const About = () => {
     document.body.classList.add( 'about' );
@@ -41,8 +39,7 @@ const About = () => {
 
             <main id="main" className="site-main">
                 <Prof ProfData={ProfData}/>
-                <Intro IntroInfoData={IntroInfoData} showSkills={false}/>
-                <Life LifeInfoData={LifeInfoData}/>
+                <AboutMe IntroInfoData={IntroInfoData} LifeInfoData={LifeInfoData}/>
                 <CvViewer/>
             </main>
 

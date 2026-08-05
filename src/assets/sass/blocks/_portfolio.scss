@@ -266,3 +266,15 @@
         }
     }
 }
+
+/* ---------- about-me: unified intro + life ---------- */
+.about-me {
+    .intro-statement { margin-bottom: 1.7rem; }
+
+    > .star-list {
+        margin-top: 0.4rem;
+        margin-bottom: 0;
+    }
+
+    .life-photos { margin-top: 1.9rem; }
+}
