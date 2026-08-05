@@ -11,7 +11,7 @@
     ],
     "skills": [
         "Python, PyTorch, Hugging Face Transformers / Diffusers / PEFT",
-        "PEFT — LoRA, P-Tuning v2, Adapter 설계·구현",
+        "PEFT(LoRA, P-Tuning v2, Adapter) 설계·구현",
         "LLM · Diffusion · Vision-Language Model · Symbolic Music(MIDI) Generation"
     ]
 }
