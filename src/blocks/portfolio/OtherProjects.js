@@ -1,13 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const OtherProjects = ({OtherProjectsItemData}) => {
+    const menu = OtherProjectsItemData.menu;
+    const [selected, setSelected] = useState(menu[0]);
+    const items = OtherProjectsItemData.items[selected] || [];
+
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="other-projects wrapper">
                     <h4>Other Projects</h4>
-                    {OtherProjectsItemData.map((item, key) => (
-                        <div className="op-item" key={key}>
+
+                    <div className="op-filter">
+                        {menu.map((name, key) => (
+                            <button key={key}
+                                    className={"op-filter-btn" + (name === selected ? " active" : "")}
+                                    onClick={() => setSelected(name)}>
+                                {name}
+                            </button>
+                        ))}
+                    </div>
+
+                    {items.map((item, key) => (
+                        <div className="op-item" key={selected + key}>
                             <div className="op-head">
                                 <h6>{item.title}</h6>
                                 <span className="op-period">{item.period}</span>

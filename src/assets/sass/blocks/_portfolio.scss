@@ -235,3 +235,34 @@
         margin-bottom: 0;
     }
 }
+
+/* ---------- other projects filter toggle ---------- */
+.other-projects {
+    .op-filter {
+        display: flex;
+        gap: 0.55rem;
+        flex-wrap: wrap;
+        margin-bottom: 1.6rem;
+    }
+
+    .op-filter-btn {
+        border: 1px solid #e2e2de;
+        background: #f1f1ee;
+        color: #555;
+        font: inherit;
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding: 0.4rem 1.1rem;
+        border-radius: 999px;
+        cursor: pointer;
+        transition: all .2s ease;
+
+        &:hover { background: #e7e7e2; }
+
+        &.active {
+            background: #2b2b2b;
+            border-color: #2b2b2b;
+            color: #fff;
+        }
+    }
+}
