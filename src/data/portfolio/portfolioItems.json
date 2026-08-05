@@ -43,7 +43,8 @@
         "skills": [
             "PyTorch, Diffusion / Vision Model, Attention 분석",
             "Adapter · PEFT 설계, 정량·정성 평가 실험"
-        ]
+        ],
+        "heroImg": "pixtention_arch.png"
     },
     {
         "logo": "L",

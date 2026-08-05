@@ -61,30 +61,6 @@ class PublicationTable extends Component {
             <div className="publicationTable spacer p-bottom-lg">
                 <div className="wrapper">
                     <h4>Publications</h4>
-                    <ul className="publicationTable-filter">
-                        { this.state.list.map( ( item, key ) => (
-                            <React.Fragment key={ key }>
-                                <li>
-                                    <span title={ item.title }
-                                       className={ "btn btn-link transform-scale-h click" + ( key === this.state.selected ? ' active' : '' ) }
-                                       data-filter={ item.filter }
-                                       onClick={ ( event ) => {
-                                           this.onFilterChange( item.filter );
-                                           this.handleClick( key, event )
-                                       } }>
-                                        {item.title}
-                                    </span>
-                                </li>
-
-                                { key !== listCount ?
-                                    <li>
-                                        <span className="btn btn-link">-</span>
-                                    </li>
-                                    : ""
-                                }
-                            </React.Fragment>
-                        ) ) }
-                    </ul>
                 <div className={"publicationTable-item-wrapper"} >
                     <div className="publicationTable-items" ref={ ( c ) => this.grid = c }>
                         { PublicationItemData && PublicationItemData.map( ( item, key ) => {
