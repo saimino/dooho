@@ -34,7 +34,7 @@ const OtherProjects = ({OtherProjectsItemData}) => {
                                 ))}
                             </div>
                             <p className="op-role">{item.role}</p>
-                            <p className="op-desc" dangerouslySetInnerHTML={{__html: item.desc}} />
+                            {item.desc && <p className="op-desc" dangerouslySetInnerHTML={{__html: item.desc}} />}
                         </div>
                     ))}
                 </div>

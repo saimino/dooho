@@ -4,10 +4,11 @@
         "accent": "#6a5be2",
         "gradient": "linear-gradient(120deg,#5b4bd4,#8f7bff 55%,#c9b8ff)",
         "title": "MIDILM: Controllable Text-to-MIDI Generation",
-        "period": "AAAI 2026 (Main Track) · 공동 1저자 · 2025 ~ 2026",
+        "period": "AAAI 2026 (Main Track) · 공동 1저자 · 2026",
         "links": {
             "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483",
-            "Demo": "https://large-multimodal-model-lab.github.io/MIDILM/"
+            "Demo": "https://large-multimodal-model-lab.github.io/MIDILM/",
+            "Code": "https://github.com/Large-Multimodal-Model-Lab/MIDILM"
         },
         "heroTitle": "Text → 🎵 MIDI",
         "heroSub": "Dual-Path Model for Controllable Symbolic Music Generation",
@@ -23,7 +24,9 @@
             "Symbolic Music(MIDI) 표현·토크나이제이션, 조건부 생성(Conditional Generation)"
         ],
         "heroImg": "midilm_arch.png",
-        "heroImgOnGradient": true
+        "heroImgOnGradient": true,
+        "heroLeft": "Text",
+        "heroRight": "🎵 MIDI"
     },
     {
         "logo": "P",
@@ -45,7 +48,10 @@
             "PyTorch, Diffusion / Vision Model, Attention 분석",
             "Adapter · PEFT 설계, 정량·정성 평가 실험"
         ],
-        "heroImg": "pixtention_arch.png"
+        "heroImg": "pixtention_arch.png",
+        "heroImgOnGradient": true,
+        "heroLeft": "Attention",
+        "heroRight": "Adapter"
     },
     {
         "logo": "L",
@@ -68,6 +74,9 @@
             "Stable Diffusion, LoRA, PyTorch",
             "이미지 생성 평가 지표 및 실험 설계"
         ],
-        "heroImg": "lorafusion_arch.png"
+        "heroImg": "lorafusion_arch.png",
+        "heroImgOnGradient": true,
+        "heroLeft": "LoRA + LoRA",
+        "heroRight": "🖼 Image"
     }
 ]
