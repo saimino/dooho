@@ -94,7 +94,6 @@ class PublicationTable extends Component {
                                         <h6>{ item.title }</h6>
                                         <p>{ item.Authors.split('Dooho Choi')[0] }<b>Dooho Choi</b>{ item.Authors.split('Dooho Choi')[1] }</p>
                                         <p className="date">{ item.bookTitle }</p>
-                                        <p> { item.category.split(' ').map( tag=>(<i>{'#'+this.getCategoryTitle(tag)}&ensp;</i>) )} </p>
                                     </div>
                                 );
                             } else {
@@ -103,7 +102,6 @@ class PublicationTable extends Component {
                                         <h6>{ item.title }</h6>
                                         <p>{ item.Authors.split('Dooho Choi')[0] }<b>Dooho Choi</b>{ item.Authors.split('Dooho Choi')[1] }</p>
                                         <p className="date">{ item.bookTitle }</p>
-                                        <p> { item.category.split(' ').map( tag=>(<i>{'#'+this.getCategoryTitle(tag)}&ensp;</i>) )} </p>
                                         {Object.keys(item.material).map((key_name, index) => {
                                             if (index === 0){
                                                 return(
