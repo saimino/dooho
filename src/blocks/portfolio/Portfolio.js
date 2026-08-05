@@ -25,7 +25,8 @@ const Portfolio = ({PortfolioItemData}) => {
                             </div>
 
                             {item.heroImg ? (
-                                <div className="portfolio-hero portfolio-hero-img">
+                                <div className={"portfolio-hero portfolio-hero-img" + (item.heroImgOnGradient ? " on-gradient" : "")}
+                                     style={item.heroImgOnGradient ? {background: item.gradient} : undefined}>
                                     <img src={process.env.PUBLIC_URL + '/assets/img/projects/' + item.heroImg}
                                          alt={item.title} loading="lazy"/>
                                 </div>
