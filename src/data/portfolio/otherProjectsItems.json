@@ -1,13 +1,13 @@
 {
     "menu": [
-        "연구과제",
-        "특허 (SW 포함)",
+        "Research Projects",
+        "Patents & Software",
         "Presentation",
         "Personal Experience",
         "Awards"
     ],
     "items": {
-        "연구과제": [
+        "Research Projects": [
             {
                 "title": "LLM 기반 정보 검색·질의응답(QA) 시스템",
                 "period": "2024 ~ 현재",
@@ -37,7 +37,7 @@
                 "links": {}
             }
         ],
-        "특허 (SW 포함)": [
+        "Patents & Software": [
             {
                 "title": "심볼릭 음악 생성 방법 및 장치",
                 "period": "2025 출원",
@@ -49,21 +49,21 @@
                 "title": "심볼릭 음악 예측 모델 학습 방법",
                 "period": "2025 출원",
                 "role": "특허 10-2025-0139997",
-                "desc": "심볼릭 음악 예측 모델의 <b>학습 방법</b>에 관한 특허입니다.",
+                "desc": "",
                 "links": {}
             },
             {
                 "title": "LLM 기반 정보 검색 및 QA 시스템",
                 "period": "2024 출원",
                 "role": "특허 10-2024-0118146",
-                "desc": "LLM 기반 <b>정보 검색·질의응답 시스템</b>에 관한 특허입니다.",
+                "desc": "",
                 "links": {}
             },
             {
                 "title": "LLM 기반 정보 검색 및 QA 시스템 (소프트웨어)",
                 "period": "2024 등록",
                 "role": "SW 저작권 C-2024-026547",
-                "desc": "동일 시스템의 <b>소프트웨어 저작권 등록</b>입니다.",
+                "desc": "",
                 "links": {}
             }
         ],
@@ -72,9 +72,9 @@
                 "title": "CoMIDI: MIDILM 기반 MIDI 생성 서비스",
                 "period": "2026",
                 "role": "Jihyun Im, Dooho Choi, Shuyu Li, Yunsick Sung",
-                "desc": "AAAI 2026에 채택된 MIDILM을 기반 모델로 하는 <b>MIDI 생성 서비스 CoMIDI</b>를 개발하고 포스터로 발표했습니다.",
+                "desc": "AAAI 2026에 채택된 MIDILM을 기반 모델로 하는 <b>MIDI 생성 서비스 CoMIDI</b>를 개발하고 데모 세션에서 발표했습니다.",
                 "links": {
-                    "Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=ah01XoEAAAAJ&citation_for_view=ah01XoEAAAAJ:IjCSPb-OGe4C"
+                    "Link": "https://music-informatics.kr/conferences/ksmi2026"
                 }
             },
             {
@@ -131,14 +131,18 @@
                 "period": "2023. 12",
                 "role": "동국대학교",
                 "desc": "Local LLM 기반 캐릭터 페르소나 구현 프로젝트로 <b>원장상</b>을 수상했습니다.",
-                "links": {}
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/Unity-Local-LLM-fine-tune-NPC-a88cac10ac3e44c38b2161e1af4cf5dd?pvs=4"
+                }
             },
             {
                 "title": "2023 SKT 주최 기업사회맞춤형 캡스톤디자인 결과발표회 우수상",
                 "period": "2023. 12",
                 "role": "SK Telecom",
                 "desc": "SKT AI BLOG 프로젝트로 <b>우수상</b>을 수상했습니다.",
-                "links": {}
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4"
+                }
             }
         ]
     }

@@ -27,8 +27,12 @@ const Portfolio = ({PortfolioItemData}) => {
                             {item.heroImg ? (
                                 <div className={"portfolio-hero portfolio-hero-img" + (item.heroImgOnGradient ? " on-gradient" : "")}
                                      style={item.heroImgOnGradient ? {background: item.gradient} : undefined}>
+                                    {item.heroLeft && <span className="hero-flank">{item.heroLeft}</span>}
+                                    {item.heroLeft && <span className="hero-arrow">⟶</span>}
                                     <img src={process.env.PUBLIC_URL + '/assets/img/projects/' + item.heroImg}
                                          alt={item.title} loading="lazy"/>
+                                    {item.heroRight && <span className="hero-arrow">⟶</span>}
+                                    {item.heroRight && <span className="hero-flank">{item.heroRight}</span>}
                                 </div>
                             ) : (
                                 <div className="portfolio-hero" style={{background: item.gradient}}>
