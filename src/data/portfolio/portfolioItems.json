@@ -65,6 +65,7 @@
         "skills": [
             "Stable Diffusion, LoRA, PyTorch",
             "이미지 생성 평가 지표 및 실험 설계"
-        ]
+        ],
+        "heroImg": "lorafusion_arch.png"
     }
 ]
