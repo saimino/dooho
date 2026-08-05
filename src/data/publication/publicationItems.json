@@ -2,51 +2,55 @@
     {
         "title": "MIDILM: A Dual-Path Model for Controllable Text-to-MIDI Generation",
         "category": "gen music",
-        "year" : "2026",
+        "year": "2026",
         "Authors": "Shuyu Li*, Dooho Choi*, Yunsick Sung (* co-first author)",
         "bookTitle": "AAAI 2026 (Main Track)",
         "bookCategory": "Conferences and Workshops",
-        "material" : ""
+        "material": {
+            "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483"
+        }
     },
     {
         "title": "PixTention: Dynamic Pixel-level Adapter using Attention Maps",
         "category": "gen cv",
-        "year" : "2025",
+        "year": "2025",
         "Authors": "Dooho Choi, Yunsick Sung",
         "bookTitle": "Image and Vision Computing (IVC), 163:105746, 2025",
         "bookCategory": "Journal",
-        "material" : {
+        "material": {
             "paper": "https://doi.org/10.1016/j.imavis.2025.105746"
         }
     },
     {
         "title": "Enhanced BLIP-2 Optimization Using LoRA for Generating Dashcam Captions",
         "category": "gen cv",
-        "year" : "2025",
+        "year": "2025",
         "Authors": "Minki Cho, Sungwoo Kim, Dooho Choi, Yunsick Sung",
         "bookTitle": "Applied Sciences, 15(7):3712, 2025",
         "bookCategory": "Journal",
-        "material" : {
+        "material": {
             "paper": "https://doi.org/10.3390/app15073712"
         }
     },
     {
         "title": "P-Tuning v2 기반 MusicGen 프레임워크 설계 연구",
         "category": "gen music",
-        "year" : "2025",
+        "year": "2025",
         "Authors": "Jihyun An, Dooho Choi, Yunsick Sung",
         "bookTitle": "KICS Conference, 2025",
         "bookCategory": "Conferences and Workshops",
-        "material" : ""
+        "material": {
+            "paper": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132369"
+        }
     },
     {
         "title": "LoRA Fusion: Enhancing Image Generation",
         "category": "gen cv",
-        "year" : "2024",
+        "year": "2024",
         "Authors": "Dooho Choi*, Jeonghyeon Im*, Yunsick Sung (* co-first author)",
         "bookTitle": "Mathematics, 12(22):3474, 2024",
         "bookCategory": "Journal",
-        "material" : {
+        "material": {
             "paper": "https://doi.org/10.3390/math12223474"
         }
     }
