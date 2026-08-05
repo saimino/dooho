@@ -286,6 +286,8 @@
         border: 1px solid #e3e3df;
         display: flex;
         justify-content: center;
+        height: auto;
+        overflow: visible;
         padding: 1.5rem 1rem;
 
         img {
