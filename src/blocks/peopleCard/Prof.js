@@ -28,7 +28,7 @@ const Prof = ({ProfData}) => {
                                     <div className="info_div">
                                         <h4>{item.title}</h4>
                                         <p>AI researcher <br/>
-                                        MSc Student @ <a href='https://www.dongguk.edu/'>Dongguk University</a>, Dept. of Computer Science and Artificial Intelligence
+                                        MSc Student @ <a href='https://www.dongguk.edu/' target="_blank" rel="noopener noreferrer">Dongguk University</a>, Dept. of Computer Science and Artificial Intelligence
                                         &nbsp;(Advisor: Prof. Yunsick Sung 성연식). <br/>
                                         Research Interest: Controllable Multimodal Generation, Text-to-MIDI Symbolic Music Generation. <br/>
                                         likeb789@dgu.ac.kr
@@ -44,8 +44,9 @@ const Prof = ({ProfData}) => {
                                                             textcolor = "has-white-color"
                                                             backgroundcolor = "has-gray-dark-background-color"
                                                         /> */}
-                                                        <a href={item.material[key_name]} 
-                                                            className={`btn ${index===0 ? '' : 'inline'} 
+                                                        <a href={item.material[key_name]}
+                                                            target="_blank" rel="noopener noreferrer"
+                                                            className={`btn ${index===0 ? '' : 'inline'}
                                                                     has-white-color has-gray-dark-background-color`}
                                                         >
                                                             {icons[key_name]}

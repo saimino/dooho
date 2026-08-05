@@ -11,7 +11,7 @@ const Ind = ({IndInfoData}) => {
                             return (
                                 <>
                                     {item.link !== undefined
-                                        ? (<h6><a href={item.link}>{ item.institution }</a></h6>)
+                                        ? (<h6><a href={item.link} target="_blank" rel="noopener noreferrer">{ item.institution }</a></h6>)
                                         : (<h6>{ item.institution }</h6>)
                                     }
                                     <p>

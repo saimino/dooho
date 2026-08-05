@@ -5,7 +5,7 @@ const BlogCell = ({item, key}) => {
         <section key={ key } title={ item.title } className={ "blogTable-item active " + item.category }>
                 <div className="contents_div overflow-hidden">
                     <div className="object-fit-cover transform-scale-h">
-                        <a href={item.url} cursor="pointer">
+                        <a href={item.url} cursor="pointer" target="_blank" rel="noopener noreferrer">
                             <img className="img_div" src={process.env.PUBLIC_URL + `/assets/blog/`+ item._id + `/thumbnail.png`} alt={item._id}/>
                         </a>
                     </div>
@@ -14,7 +14,7 @@ const BlogCell = ({item, key}) => {
                     </a> */}
                     <div className="info_div">
                         <div>
-                            <h5><a href={item.url} cursor="pointer">{item.title}</a></h5>
+                            <h5><a href={item.url} cursor="pointer" target="_blank" rel="noopener noreferrer">{item.title}</a></h5>
                             <p className='desc'>{item.decs}</p>
                         </div>
                         <div className="date_div">
