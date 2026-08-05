@@ -1,0 +1,13 @@
+{
+    "statements": [
+        "꾸준함, 성실, 습관의 힘을 알기에, 습관을 만들기 위해 노력합니다.",
+        "좋은 것을 좋아하는 사람과 🍲먹고, 🌅보고, 🎧듣는 것을 좋아합니다.",
+        "다른 사람과 협업과 소통이 중요하다는 것을 알기에, 커뮤니케이션을 부단히 하려고 노력합니다.",
+        "밴드에서 🎤노래하고 🎸기타와 🥁드럼을 연주합니다. 음악을 사랑하는 마음이 자연스럽게 텍스트-투-MIDI 음악 생성 연구(MIDILM)로 이어졌습니다."
+    ],
+    "photos": [
+        { "img": "graduation.jpg", "alt": "Graduation at Dongguk University" },
+        { "img": "band.jpg", "alt": "Singing and playing guitar with my band" },
+        { "img": "drums.jpg", "alt": "Playing drums" }
+    ]
+}

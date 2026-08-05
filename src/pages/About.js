@@ -12,6 +12,9 @@ import IntroInfoData from '../data/intro/introInfo.json';
 
 import CvViewer from '../blocks/cv/CvViewer';
 
+import Life from '../blocks/life/Life';
+import LifeInfoData from '../data/life/lifeInfo.json';
+
 const About = () => {
     document.body.classList.add( 'about' );
     document.body.classList.add( 'bg-fixed' );
@@ -39,6 +42,7 @@ const About = () => {
             <main id="main" className="site-main">
                 <Prof ProfData={ProfData}/>
                 <Intro IntroInfoData={IntroInfoData} showSkills={false}/>
+                <Life LifeInfoData={LifeInfoData}/>
                 <CvViewer/>
             </main>
 
