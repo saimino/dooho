@@ -8,7 +8,6 @@ import Prof from '../blocks/peopleCard/Prof'
 import ProfData from '../data/people/prof.json'
 
 import AboutMe from '../blocks/aboutme/AboutMe';
-import IntroInfoData from '../data/intro/introInfo.json';
 import LifeInfoData from '../data/life/lifeInfo.json';
 
 import CvViewer from '../blocks/cv/CvViewer';
@@ -39,7 +38,7 @@ const About = () => {
 
             <main id="main" className="site-main">
                 <Prof ProfData={ProfData}/>
-                <AboutMe IntroInfoData={IntroInfoData} LifeInfoData={LifeInfoData}/>
+                <AboutMe LifeInfoData={LifeInfoData}/>
                 <CvViewer/>
             </main>
 

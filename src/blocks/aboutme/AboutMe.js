@@ -1,22 +1,16 @@
 import React from 'react';
 
-const AboutMe = ({IntroInfoData, LifeInfoData}) => {
+const AboutMe = ({LifeInfoData}) => {
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="about-me intro life wrapper">
-                    {IntroInfoData.statements.map((item, key) => (
-                        <div className="intro-statement" key={key}>
-                            <h5 className="intro-headline" dangerouslySetInnerHTML={{__html: item.headline}} />
-                            <p className="intro-body" dangerouslySetInnerHTML={{__html: item.body}} />
-                        </div>
-                    ))}
+                    <h5 className="intro-headline" dangerouslySetInnerHTML={{__html: LifeInfoData.headline}} />
 
-                    <ul className="star-list">
-                        {LifeInfoData.statements.map((line, key) => (
-                            <li key={key}>{line}</li>
-                        ))}
-                    </ul>
+                    {LifeInfoData.paragraphs.map((text, key) => (
+                        <p className="intro-body about-paragraph" key={key}
+                           dangerouslySetInnerHTML={{__html: text}} />
+                    ))}
 
                     <div className="life-photos">
                         {LifeInfoData.photos.map((photo, key) => (
