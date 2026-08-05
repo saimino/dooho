@@ -6,8 +6,25 @@
         "밴드에서 🎤노래하고 🎸기타와 🥁드럼을 연주합니다. 음악을 사랑하는 마음이 자연스럽게 텍스트-투-MIDI 음악 생성 연구(MIDILM)로 이어졌습니다."
     ],
     "photos": [
-        { "img": "graduation.jpg", "alt": "Graduation at Dongguk University" },
-        { "img": "band.jpg", "alt": "Singing and playing guitar with my band" },
-        { "img": "drums.jpg", "alt": "Playing drums" }
+        {
+            "img": "graduation.jpg",
+            "alt": "Graduation at Dongguk University"
+        },
+        {
+            "img": "aaai_poster.jpg",
+            "alt": "MIDILM poster session at AAAI 2026, Singapore"
+        },
+        {
+            "img": "midi_service_poster.jpg",
+            "alt": "Presenting the MIDI generation service poster"
+        },
+        {
+            "img": "band.jpg",
+            "alt": "Singing and playing guitar with my band"
+        },
+        {
+            "img": "drums.jpg",
+            "alt": "Playing drums"
+        }
     ]
 }
