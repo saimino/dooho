@@ -69,6 +69,15 @@
         ],
         "Presentation": [
             {
+                "title": "CoMIDI: MIDILM 기반 MIDI 생성 서비스",
+                "period": "2026",
+                "role": "Jihyun Im, Dooho Choi, Shuyu Li, Yunsick Sung",
+                "desc": "AAAI 2026에 채택된 MIDILM을 기반 모델로 하는 <b>MIDI 생성 서비스 CoMIDI</b>를 개발하고 포스터로 발표했습니다.",
+                "links": {
+                    "Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=ah01XoEAAAAJ&citation_for_view=ah01XoEAAAAJ:IjCSPb-OGe4C"
+                }
+            },
+            {
                 "title": "2025 AI Festa 「자연어 기반 MIDI 생성 프레임워크」 전시·발표",
                 "period": "2025. 09. 30 ~ 10. 02",
                 "role": "과학기술정보통신부 주최 · COEX A홀 · Team MIDILM",

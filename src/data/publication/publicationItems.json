@@ -1,5 +1,16 @@
 [
     {
+        "title": "MidiFill: Text-Conditioned Symbolic Music Infilling",
+        "category": "gen music",
+        "year": "2026",
+        "Authors": "Jihyun Im, Shuyu Li, Dooho Choi, Yunsick Sung",
+        "bookTitle": "Preprint, 2026",
+        "bookCategory": "Preprint",
+        "material": {
+            "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=ah01XoEAAAAJ&citation_for_view=ah01XoEAAAAJ:UeHWp8X0CEIC"
+        }
+    },
+    {
         "title": "MIDILM: A Dual-Path Model for Controllable Text-to-MIDI Generation",
         "category": "gen music",
         "year": "2026",
@@ -9,6 +20,17 @@
         "material": {
             "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483",
             "demo": "https://large-multimodal-model-lab.github.io/MIDILM/"
+        }
+    },
+    {
+        "title": "Few-shot LoRA Tuning for Genre-Specific Music Generation with Semantic Prompt Matching",
+        "category": "gen music",
+        "year": "2026",
+        "Authors": "S Lee, M Jin, Dooho Choi, Yunsick Sung",
+        "bookTitle": "Complex & Intelligent Systems, 2026",
+        "bookCategory": "Journal",
+        "material": {
+            "paper": "https://doi.org/10.1007/s40747-026-02285-5"
         }
     },
     {
