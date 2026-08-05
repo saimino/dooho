@@ -1,5 +1,11 @@
 {
-    "menu": ["연구과제", "특허 (SW 포함)", "Presentation"],
+    "menu": [
+        "연구과제",
+        "특허 (SW 포함)",
+        "Presentation",
+        "Personal Experience",
+        "Awards"
+    ],
     "items": {
         "연구과제": [
             {
@@ -67,7 +73,63 @@
                 "period": "2025. 09. 30 ~ 10. 02",
                 "role": "과학기술정보통신부 주최 · COEX A홀 · Team MIDILM",
                 "desc": "인공지능 챔피언 대회 <b>우수 연구팀(100팀/630팀)</b>으로 선발되어, 전시 참여 29개팀에 포함되어 MIDILM팀의 「자연어 기반 MIDI 생성 프레임워크」를 <b>전시하고 발표</b>했습니다.",
-                "links": { "News": "https://cs.dongguk.edu/article/webz/detail/1241" }
+                "links": {
+                    "News": "https://cs.dongguk.edu/article/webz/detail/1241"
+                }
+            }
+        ],
+        "Personal Experience": [
+            {
+                "title": "Local LLM Adaptor Fine-tuning 기반 캐릭터 Personalized Persona 구현",
+                "period": "2023. 12",
+                "role": "동국대학교 서울캠퍼스 2023 겨울 ICIP & 캡스톤디자인",
+                "desc": "Unity 게임 환경에서 <b>Local LLM의 Adaptor Fine-tuning</b>을 통해 NPC 캐릭터의 개인화된 페르소나(Personalized Persona)를 구현했습니다.",
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/Unity-Local-LLM-fine-tune-NPC-a88cac10ac3e44c38b2161e1af4cf5dd?pvs=4"
+                }
+            },
+            {
+                "title": "SKT AI BLOG",
+                "period": "2023. 12",
+                "role": "2023 SKT 기업사회맞춤형 캡스톤디자인",
+                "desc": "<b>LLM LoRA 학습</b>을 통해 블로그 작성 편의성을 향상시키는 AI 블로그 어시스턴트를 개발했습니다.",
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4"
+                }
+            },
+            {
+                "title": "지역별 전기차·충전소 현황 분석 프로젝트",
+                "period": "2022. 02",
+                "role": "멋쟁이사자처럼 프로젝트",
+                "desc": "<b>Pandas와 Folium</b>을 이용해 지역별 전기차 등록·충전소 현황을 분석하고 시각화했습니다.",
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/68cf110f12c94fc8a84160ad16db4b38?pvs=4"
+                }
+            },
+            {
+                "title": "데이콘(DACON) 잡케어 추천 알고리즘 경진대회",
+                "period": "2021. 12",
+                "role": "상위 26% (189/728)",
+                "desc": "잡케어 추천 알고리즘 대회에 참가하여 <b>상위 26% (189/728)</b>의 성적을 기록했습니다.",
+                "links": {
+                    "Notion": "https://www.notion.so/68cf110f12c94fc8a84160ad16db4b38"
+                }
+            }
+        ],
+        "Awards": [
+            {
+                "title": "2023 겨울 ICIP & 캡스톤디자인 결과발표회 — 원장상",
+                "period": "2023. 12",
+                "role": "동국대학교",
+                "desc": "Local LLM 기반 캐릭터 페르소나 구현 프로젝트로 <b>원장상</b>을 수상했습니다.",
+                "links": {}
+            },
+            {
+                "title": "2023 SKT 주최 기업사회맞춤형 캡스톤디자인 결과발표회 — 우수상",
+                "period": "2023. 12",
+                "role": "SK Telecom",
+                "desc": "SKT AI BLOG 프로젝트로 <b>우수상</b>을 수상했습니다.",
+                "links": {}
             }
         ]
     }
