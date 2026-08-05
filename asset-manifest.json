@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dooho/static/css/main.e0bfd58e.chunk.css",
-    "main.js": "/dooho/static/js/main.351dc5f4.chunk.js",
-    "main.js.map": "/dooho/static/js/main.351dc5f4.chunk.js.map",
+    "main.js": "/dooho/static/js/main.bc29b430.chunk.js",
+    "main.js.map": "/dooho/static/js/main.bc29b430.chunk.js.map",
     "runtime-main.js": "/dooho/static/js/runtime-main.eb6a93fb.js",
     "runtime-main.js.map": "/dooho/static/js/runtime-main.eb6a93fb.js.map",
     "static/js/2.7a675ae3.chunk.js": "/dooho/static/js/2.7a675ae3.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.eb6a93fb.js",
     "static/js/2.7a675ae3.chunk.js",
     "static/css/main.e0bfd58e.chunk.css",
-    "static/js/main.351dc5f4.chunk.js"
+    "static/js/main.bc29b430.chunk.js"
   ]
 }
