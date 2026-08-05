@@ -70,7 +70,7 @@ const Header = () => {
                                     style={{color: isAboutHover ? '#FF5A57' : '#2B2B2B'}}
                                     onMouseEnter={handleAboutMouseEnter}
                                     onMouseLeave={handleAboutMouseLeave}
-                                    to="/about">About</Link>
+                                    to="/about">About Me</Link>
                             </b> </h5>
                         </li>
                         {/* <li className={ "menu-item" + ( splitArr[1] === '#/thesis' ? " current-menu-item" : "" ) }>
