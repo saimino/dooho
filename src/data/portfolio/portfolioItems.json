@@ -5,7 +5,9 @@
         "gradient": "linear-gradient(120deg,#5b4bd4,#8f7bff 55%,#c9b8ff)",
         "title": "MIDILM — Controllable Text-to-MIDI Generation",
         "period": "AAAI 2026 (Main Track) · 공동 1저자 · 2025 ~ 2026",
-        "links": {},
+        "links": {
+            "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483"
+        },
         "heroTitle": "Text → 🎵 MIDI",
         "heroSub": "Dual-Path Model for Controllable Symbolic Music Generation",
         "overview": "텍스트 프롬프트로부터 <b>제어 가능한 심볼릭 음악(MIDI)을 생성하는 Dual-Path 모델</b> 연구입니다. 자연어로 기술된 조건을 음악적 구조에 반영하는 Text-to-MIDI 생성 문제를 다루며, <b>제40회 AAAI(2026) Main Track에 채택</b>되었습니다. (Shuyu Li*, <b>Dooho Choi*</b>, Yunsick Sung — *공동 1저자)",
