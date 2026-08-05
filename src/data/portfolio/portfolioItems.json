@@ -22,7 +22,8 @@
             "PyTorch, Hugging Face Transformers, Language Model",
             "Symbolic Music(MIDI) 표현·토크나이제이션, 조건부 생성(Conditional Generation)"
         ],
-        "heroImg": "midilm_arch.png"
+        "heroImg": "midilm_arch.png",
+        "heroImgOnGradient": true
     },
     {
         "logo": "P",
