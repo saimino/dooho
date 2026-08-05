@@ -200,3 +200,38 @@
         &:hover img { transform: scale(1.04); }
     }
 }
+
+/* ---------- other projects (Home) ---------- */
+.other-projects {
+    .op-item {
+        margin-bottom: 1.9rem;
+
+        &:last-child { margin-bottom: 0; }
+    }
+
+    .op-head {
+        display: flex;
+        align-items: baseline;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+
+        h6 { margin-bottom: 0.2rem; }
+    }
+
+    .op-period {
+        color: #9a9a96;
+        font-size: 0.85rem;
+    }
+
+    .op-role {
+        color: #6b6b67;
+        font-size: 0.92rem;
+        font-weight: 600;
+        margin-bottom: 0.2rem;
+    }
+
+    .op-desc {
+        color: #3c3c3a;
+        margin-bottom: 0;
+    }
+}
