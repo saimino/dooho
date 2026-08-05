@@ -73,6 +73,17 @@ const Header = () => {
                                     to="/about">About Me</Link>
                             </b> </h5>
                         </li>
+                        <li className={ "menu-item" + ( splitArr[1] === '#/cv' ? " current-menu-item" : "" ) }>
+                            <h5> <b>
+                                <Link
+                                    title="CV"
+                                    className="h1 transform-scale-h border-0 p-0"
+                                    style={{color: isBlogHover ? '#EFF20D' : '#2B2B2B'}}
+                                    onMouseEnter={handleBlogMouseEnter}
+                                    onMouseLeave={handleBlogMouseLeave}
+                                    to="/cv">CV</Link>
+                            </b> </h5>
+                        </li>
                         {/* <li className={ "menu-item" + ( splitArr[1] === '#/thesis' ? " current-menu-item" : "" ) }>
                             <a 
                                 title="thesis" 
