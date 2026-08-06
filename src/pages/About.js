@@ -1,8 +1,11 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
-import Sidebar from '../blocks/sidebar/Sidebar';
+import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
+
+import Prof from '../blocks/peopleCard/Prof'
+import ProfData from '../data/people/prof.json'
 
 import AboutMe from '../blocks/aboutme/AboutMe';
 import LifeInfoData from '../data/life/lifeInfo.json';
@@ -29,13 +32,14 @@ const About = () => {
                 <meta name="google" content="notranslate" />
                 <meta name="format-detection" content="telephone=no" />
             </MetaTags>
-            <div className="layout">
-                <Sidebar/>
-                <main id="main" className="site-main layout-content">
-                    <AboutMe LifeInfoData={LifeInfoData}/>
-                    <Footer />
-                </main>
-            </div>
+            <Header/>
+
+            <main id="main" className="site-main">
+                <Prof ProfData={ProfData}/>
+                <AboutMe LifeInfoData={LifeInfoData}/>
+            </main>
+
+            <Footer />
         </Fragment>
     );
 };

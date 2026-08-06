@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
-import Sidebar from '../blocks/sidebar/Sidebar';
+import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
 
 import CvViewer from '../blocks/cv/CvViewer';
@@ -26,14 +26,14 @@ const Cv = () => {
                 <meta name="google" content="notranslate" />
                 <meta name="format-detection" content="telephone=no" />
             </MetaTags>
-            <div className="layout">
-                <Sidebar/>
-                <main id="main" className="site-main layout-content">
-                    <div className="cv-page-spacer" />
-                    <CvViewer/>
-                    <Footer />
-                </main>
-            </div>
+            <Header/>
+
+            <main id="main" className="site-main">
+                <div className="cv-page-spacer" />
+                <CvViewer/>
+            </main>
+
+            <Footer />
         </Fragment>
     );
 };
