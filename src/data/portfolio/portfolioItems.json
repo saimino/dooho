@@ -50,8 +50,8 @@
         ],
         "heroImg": "pixtention_arch.png",
         "heroImgOnGradient": true,
-        "heroLeft": "Attention",
-        "heroRight": "Adapter"
+        "heroLeft": "LoRA + LoRA + ... (With Attention)",
+        "heroRight": "🖼 Image"
     },
     {
         "logo": "L",
@@ -76,7 +76,7 @@
         ],
         "heroImg": "lorafusion_arch.png",
         "heroImgOnGradient": true,
-        "heroLeft": "LoRA + LoRA",
+        "heroLeft": "LoRA + LoRA + ...",
         "heroRight": "🖼 Image"
     }
 ]
