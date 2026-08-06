@@ -43,7 +43,7 @@ const Home = () => {
             <div className="layout">
                 <Sidebar/>
                 <main id="main" className="site-main font-family layout-content">
-                    <Intro IntroInfoData={IntroInfoData} showStatements={false}/>
+                    <Intro IntroInfoData={IntroInfoData} showStatements={false} showSkills={false}/>
                     <Portfolio PortfolioItemData={PortfolioItemData}/>
                     <PublicationTable/>
                     <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>

@@ -52,13 +52,6 @@ const Portfolio = ({PortfolioItemData}) => {
                                     <li key={index} dangerouslySetInnerHTML={{__html: role}} />
                                 ))}
                             </ul>
-
-                            <h6>Skills</h6>
-                            <ul className="star-list">
-                                {item.skills.map((skill, index) => (
-                                    <li key={index}>{skill}</li>
-                                ))}
-                            </ul>
                         </div>
                     ))}
                 </div>
