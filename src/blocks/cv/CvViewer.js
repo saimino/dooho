@@ -16,8 +16,8 @@ const CvViewer = ({file = '/assets/pdf/DoohoChoi_CV.pdf'}) => {
                     <object className="cv-viewer-frame" data={src + '#view=FitH'} type="application/pdf"
                             aria-label="Dooho Choi CV PDF">
                         <p>
-                            브라우저에서 PDF 미리보기를 지원하지 않습니다.&nbsp;
-                            <a href={src} target="_blank" rel="noreferrer">여기서 CV를 내려받아 주세요.</a>
+                            Your browser cannot preview PDF files.&nbsp;
+                            <a href={src} target="_blank" rel="noreferrer">Download the CV here.</a>
                         </p>
                     </object>
                 </div>

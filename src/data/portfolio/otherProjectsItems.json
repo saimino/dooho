@@ -9,49 +9,49 @@
     "items": {
         "Patents & Software": [
             {
-                "title": "심볼릭 음악 생성 방법 및 장치",
-                "period": "2025 출원",
-                "role": "특허 10-2025-0139998",
-                "desc": "<b>MIDILM 연구 성과</b>를 바탕으로 한 심볼릭 음악 생성 방법·장치 특허입니다.",
+                "title": "Symbolic Music Generation Method and Device",
+                "period": "Filed 2025",
+                "role": "Patent 10-2025-0139998",
+                "desc": "A patent based on the <b>MIDILM research</b> on symbolic music generation.",
                 "links": {}
             },
             {
-                "title": "심볼릭 음악 예측 모델 학습 방법",
-                "period": "2025 출원",
-                "role": "특허 10-2025-0139997",
+                "title": "Symbolic Music Prediction Model Training Method",
+                "period": "Filed 2025",
+                "role": "Patent 10-2025-0139997",
                 "desc": "",
                 "links": {}
             },
             {
-                "title": "LLM 기반 정보 검색 및 QA 시스템",
-                "period": "2024 출원",
-                "role": "특허 10-2024-0118146",
+                "title": "LLM-based Information Retrieval and QA System",
+                "period": "Filed 2024",
+                "role": "Patent 10-2024-0118146",
                 "desc": "",
                 "links": {}
             },
             {
-                "title": "LLM 기반 정보 검색 및 QA 시스템 (소프트웨어)",
-                "period": "2024 등록",
-                "role": "SW 저작권 C-2024-026547",
+                "title": "LLM-based Information Retrieval and QA System (Software)",
+                "period": "Registered 2024",
+                "role": "SW Copyright C-2024-026547",
                 "desc": "",
                 "links": {}
             }
         ],
         "Presentation": [
             {
-                "title": "CoMIDI: MIDILM 기반 MIDI 생성 서비스",
+                "title": "CoMIDI: MIDI Generation Service based on MIDILM",
                 "period": "2026",
                 "role": "Jihyun Im, Dooho Choi, Shuyu Li, Yunsick Sung",
-                "desc": "AAAI 2026에 채택된 MIDILM을 기반 모델로 하는 <b>MIDI 생성 서비스 CoMIDI</b>를 개발하고 데모 세션에서 발표했습니다.",
+                "desc": "Developed <b>CoMIDI, a MIDI generation service built on MIDILM</b> (AAAI 2026), and presented it in a demo session.",
                 "links": {
                     "Link": "https://music-informatics.kr/conferences/ksmi2026"
                 }
             },
             {
-                "title": "2025 AI Festa 「자연어 기반 MIDI 생성 프레임워크」 전시·발표",
-                "period": "2025. 09. 30 ~ 10. 02",
-                "role": "과학기술정보통신부 주최 · COEX A홀 · Team MIDILM",
-                "desc": "인공지능 챔피언 대회 <b>우수 연구팀(100팀/630팀)</b>으로 선발되어, 전시 참여 29개팀에 포함되어 MIDILM팀의 「자연어 기반 MIDI 생성 프레임워크」를 <b>전시하고 발표</b>했습니다.",
+                "title": "2025 AI Festa: Natural-language MIDI Generation Framework",
+                "period": "Sep 30 ~ Oct 2, 2025",
+                "role": "Hosted by the Ministry of Science and ICT · COEX Hall A · Team MIDILM",
+                "desc": "Selected as a <b>top-100 team (of 630)</b> in the AI Champion Program, and <b>exhibited and presented</b> the framework as one of 29 exhibiting teams.",
                 "links": {
                     "News": "https://cs.dongguk.edu/article/webz/detail/1241"
                 }
@@ -59,37 +59,37 @@
         ],
         "Personal Experience": [
             {
-                "title": "Local LLM Adaptor Fine-tuning 기반 캐릭터 Personalized Persona 구현",
-                "period": "2023. 12",
-                "role": "동국대학교 서울캠퍼스 2023 겨울 ICIP & 캡스톤디자인",
-                "desc": "Unity 게임 환경에서 <b>Local LLM의 Adaptor Fine-tuning</b>을 통해 NPC 캐릭터의 개인화된 페르소나(Personalized Persona)를 구현했습니다.",
+                "title": "Personalized Persona NPC with Local LLM Adapter Fine-tuning",
+                "period": "Dec 2023",
+                "role": "Dongguk University 2023 Winter ICIP & Capstone Design",
+                "desc": "Built game NPC characters with a <b>personalized persona by fine-tuning a local LLM adapter</b> in Unity.",
                 "links": {
                     "Notion": "https://marvelous-gondola-191.notion.site/Unity-Local-LLM-fine-tune-NPC-a88cac10ac3e44c38b2161e1af4cf5dd?pvs=4"
                 }
             },
             {
                 "title": "SKT AI BLOG",
-                "period": "2023. 12",
-                "role": "2023 SKT 기업사회맞춤형 캡스톤디자인",
-                "desc": "<b>LLM LoRA 학습</b>을 통해 블로그 작성 편의성을 향상시키는 AI 블로그 어시스턴트를 개발했습니다.",
+                "period": "Dec 2023",
+                "role": "2023 SKT Corporate Capstone Design",
+                "desc": "Built an AI blog assistant that makes writing easier with <b>LLM LoRA training</b>.",
                 "links": {
                     "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4"
                 }
             },
             {
-                "title": "지역별 전기차·충전소 현황 분석 프로젝트",
-                "period": "2022. 02",
-                "role": "멋쟁이사자처럼 프로젝트",
-                "desc": "<b>Pandas와 Folium</b>을 이용해 지역별 전기차 등록·충전소 현황을 분석하고 시각화했습니다.",
+                "title": "Regional EV and Charging Station Analysis",
+                "period": "Feb 2022",
+                "role": "LIKELION Project",
+                "desc": "Analyzed and visualized regional EV and charging station data with <b>Pandas and Folium</b>.",
                 "links": {
                     "Notion": "https://marvelous-gondola-191.notion.site/68cf110f12c94fc8a84160ad16db4b38?pvs=4"
                 }
             },
             {
-                "title": "데이콘(DACON) 잡케어 추천 알고리즘 경진대회",
-                "period": "2021. 12",
-                "role": "상위 26% (189/728)",
-                "desc": "ML 경진 대회에서 <b>상위 26%(189/728)</b>를 기록했습니다. (Naive Bayes, CatBoost, Gradient Boosting 앙상블)",
+                "title": "DACON Job Care Recommendation Competition",
+                "period": "Dec 2021",
+                "role": "Top 26% (189/728)",
+                "desc": "Placed in the <b>top 26% (189/728)</b> of an ML competition. (Naive Bayes, CatBoost, Gradient Boosting ensemble)",
                 "links": {
                     "Link": "https://dacon.io/competitions/official/235863/leaderboard"
                 }
@@ -97,19 +97,19 @@
         ],
         "Awards": [
             {
-                "title": "2023 겨울 ICIP & 캡스톤디자인 결과발표회 원장상",
-                "period": "2023. 12",
-                "role": "동국대학교",
-                "desc": "Local LLM 기반 캐릭터 페르소나 구현 프로젝트로 <b>원장상</b>을 수상했습니다.",
+                "title": "Dean's Award, 2023 Winter ICIP & Capstone Design",
+                "period": "Dec 2023",
+                "role": "Dongguk University",
+                "desc": "Won the <b>Dean's Award</b> with the local LLM persona project.",
                 "links": {
                     "Notion": "https://marvelous-gondola-191.notion.site/Unity-Local-LLM-fine-tune-NPC-a88cac10ac3e44c38b2161e1af4cf5dd?pvs=4"
                 }
             },
             {
-                "title": "2023 SKT 주최 기업사회맞춤형 캡스톤디자인 결과발표회 우수상",
-                "period": "2023. 12",
+                "title": "Excellence Award, 2023 SKT Corporate Capstone Design",
+                "period": "Dec 2023",
                 "role": "SK Telecom",
-                "desc": "SKT AI BLOG 프로젝트로 <b>우수상</b>을 수상했습니다.",
+                "desc": "Won the <b>Excellence Award</b> with the SKT AI BLOG project.",
                 "links": {
                     "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4"
                 }
@@ -117,31 +117,31 @@
         ],
         "Research Participation": [
             {
-                "title": "LLM 기반 정보 검색·질의응답(QA) 시스템",
-                "period": "2024 ~ 현재",
-                "role": "특허 출원(10-2024-0118146) & SW 저작권 등록(C-2024-026547)",
-                "desc": "문서 검색과 LLM 응답 생성을 결합한 <b>QA 파이프라인을 설계·구현</b>했습니다. 연구를 확장하여 <b>한국연구재단(NRF) 「문서 내부 특징을 고려한 LLM 연구」</b> 과제를 수행 중입니다 (2025. 09 ~).",
+                "title": "LLM-based Information Retrieval and QA System",
+                "period": "2024 ~ Present",
+                "role": "Patent filed (10-2024-0118146) & SW copyright registered (C-2024-026547)",
+                "desc": "Designed and built a <b>QA pipeline</b> that combines document retrieval with LLM answers. The work continues in the NRF project <b>Research of LLM Considering Internal Features of Documents</b> (Sep 2025 ~).",
                 "links": {}
             },
             {
-                "title": "AI 주행능력 평가 표준화",
-                "period": "2024. 03 ~ 2024. 08",
-                "role": "경찰청 (Korean National Police Agency) 과제 참여",
-                "desc": "AI 기반 주행능력 평가의 <b>표준화 연구 과제</b>를 수행했습니다.",
+                "title": "AI Driving Capability Evaluation Standardization",
+                "period": "Mar 2024 ~ Aug 2024",
+                "role": "Korean National Police Agency",
+                "desc": "Worked on a national project to <b>standardize AI-based driving capability evaluation</b>.",
                 "links": {}
             },
             {
-                "title": "AI+X 산학협력 프로젝트 / AI 융합혁신 인재양성",
-                "period": "2024. 03 ~ 현재",
-                "role": "IITP (과학기술정보통신부)",
-                "desc": "산학 도메인 데이터에 <b>AI 모델을 적용하는 과제</b>와 인재양성 프로그램에 참여하고 있습니다.",
+                "title": "AI+X Industry-Academia Project / AI Convergence Innovation Human Resource Program",
+                "period": "Mar 2024 ~ Present",
+                "role": "IITP (Ministry of Science and ICT)",
+                "desc": "Applying <b>AI models to industry domain data</b> and taking part in the talent program.",
                 "links": {}
             },
             {
-                "title": "스포츠·게임 도메인 첨단 AI R&D 교육",
-                "period": "2023. 08 ~ 2023. 12",
-                "role": "한국콘텐츠진흥원(KoCCA) · 문화체육관광부",
-                "desc": "스포츠/게임 도메인 특화 <b>AI 연구개발 실무 교육 과정</b>을 수료했습니다.",
+                "title": "Advanced AI R&D Training in Sports and Game Domain",
+                "period": "Aug 2023 ~ Dec 2023",
+                "role": "KoCCA, Ministry of Culture, Sports and Tourism",
+                "desc": "Completed hands-on <b>AI R&D training</b> for the sports and game domain.",
                 "links": {}
             }
         ]

@@ -4,7 +4,7 @@
         "accent": "#6a5be2",
         "gradient": "linear-gradient(120deg,#5b4bd4,#8f7bff 55%,#c9b8ff)",
         "title": "MIDILM: Controllable Text-to-MIDI Generation",
-        "period": "AAAI 2026 (Main Track) · 공동 1저자 · 2026",
+        "period": "AAAI 2026 (Main Track) · Co-first author · 2026",
         "links": {
             "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483",
             "Demo": "https://large-multimodal-model-lab.github.io/MIDILM/",
@@ -12,16 +12,16 @@
         },
         "heroTitle": "Text → 🎵 MIDI",
         "heroSub": "Dual-Path Model for Controllable Symbolic Music Generation",
-        "overview": "텍스트 프롬프트로부터 <b>제어 가능한 심볼릭 음악(MIDI)을 생성하는 Dual-Path 모델</b> 연구입니다. 자연어로 기술된 조건을 음악적 구조에 반영하는 Text-to-MIDI 생성 문제를 다루며, <b>제40회 AAAI(2026) Main Track에 채택</b>되었습니다. (Shuyu Li*, <b>Dooho Choi*</b>, Yunsick Sung, *공동 1저자)",
+        "overview": "A <b>dual-path model that generates controllable symbolic music (MIDI) from text prompts</b>. It turns conditions written in natural language into musical structure, and was <b>accepted to the 40th AAAI (2026) Main Track</b>. (Shuyu Li*, <b>Dooho Choi*</b>, Yunsick Sung, *co-first authors)",
         "roles": [
-            "공동 1저자로서 <b>모델 설계와 구현, 실험 설계·분석, 논문 작성</b>을 주도했습니다.",
-            "텍스트 조건과 심볼릭 시퀀스를 함께 다루는 <b>Dual-Path 구조</b> 설계에 참여했습니다.",
-            "연구 성과를 바탕으로 <b>특허 2건</b>(심볼릭 음악 생성 방법·장치 10-2025-0139998, 심볼릭 음악 예측 모델 학습 방법 10-2025-0139997)을 출원했습니다.",
-            "인공지능 챔피언 대회 <b>우수 연구팀(100팀/630팀)</b>으로 선발되어 <b>2025 AI Festa(COEX)</b>에서 「자연어 기반 MIDI 생성 프레임워크」를 전시하고 발표했습니다."
+            "Led <b>model design, implementation, experiments, and paper writing</b> as a co-first author.",
+            "Helped design the <b>dual-path structure</b> that handles text and MIDI tokens together.",
+            "Filed <b>two patents</b> based on this work (Symbolic Music Generation Method and Device 10-2025-0139998, Symbolic Music Prediction Model Training Method 10-2025-0139997).",
+            "Selected as a <b>top-100 team (of 630) in the AI Champion Program</b>, and exhibited and presented the framework at <b>2025 AI Festa (COEX)</b>."
         ],
         "skills": [
-            "PyTorch, Hugging Face Transformers, Language Model",
-            "Symbolic Music(MIDI) 표현·토크나이제이션, 조건부 생성(Conditional Generation)"
+            "PyTorch, Hugging Face Transformers, Language Models",
+            "Symbolic music (MIDI) representation and tokenization, conditional generation"
         ],
         "heroImg": "midilm_arch.png",
         "heroImgOnGradient": true,
@@ -33,20 +33,20 @@
         "accent": "#0f8f7e",
         "gradient": "linear-gradient(120deg,#0b7c6d,#3cc4ae 60%,#a8e8dc)",
         "title": "PixTention: Dynamic Pixel-Level Adapter",
-        "period": "Image and Vision Computing (IF 4.7), 163:105746 · 1저자 · 2025",
+        "period": "Image and Vision Computing (IF 4.7), 163:105746 · First author · 2025",
         "links": {
             "Paper": "https://doi.org/10.1016/j.imavis.2025.105746"
         },
         "heroTitle": "Attention → Adapter",
-        "heroSub": "픽셀 단위로 동적으로 동작하는 어댑터",
-        "overview": "<b>어텐션 맵(Attention Map)을 활용해 픽셀 단위로 동적으로 적용되는 어댑터(Adapter)</b>를 제안한 PEFT 연구입니다. 이미지 전역에 균일하게 적용되는 기존 어댑터와 달리, 영역별 중요도에 따라 적응 강도를 달리하여 생성 품질을 높였습니다. SCIE 저널 <b>Image and Vision Computing(IF 4.7)에 1저자로 게재</b>되었습니다. (Dooho Choi, Yunsick Sung)",
+        "heroSub": "A dynamic pixel-level adapter",
+        "overview": "A PEFT study that proposes a <b>dynamic pixel-level adapter guided by attention maps</b>. Unlike common adapters that act on the whole image in the same way, it changes the adapter strength by region and improves generation quality. Published in <b>Image and Vision Computing (IF 4.7) as first author</b>. (Dooho Choi, Yunsick Sung)",
         "roles": [
-            "<b>AS-IS</b>: 기존 어댑터 기반 PEFT는 이미지의 모든 영역에 동일하게 적용되어, 영역별로 요구되는 적응의 정도가 다른 경우 표현력이 제한되는 문제가 있었습니다.",
-            "<b>TO-BE</b>: 어텐션 맵으로부터 영역별 중요도를 추출해 <b>픽셀 수준에서 어댑터의 적용을 동적으로 조절하는 구조를 설계·구현</b>했습니다. 아이디어 제안부터 실험·분석, 논문 작성까지 1저자로 연구 전 과정을 주도했습니다."
+            "<b>AS-IS</b>: existing adapter-based PEFT applies the same update to every region of an image, which limits expressiveness when regions need different levels of adaptation.",
+            "<b>TO-BE</b>: designed and implemented a structure that reads region importance from attention maps and <b>controls the adapter at the pixel level</b>. Led the whole project as first author, from the idea to experiments and writing."
         ],
         "skills": [
-            "PyTorch, Diffusion / Vision Model, Attention 분석",
-            "Adapter · PEFT 설계, 정량·정성 평가 실험"
+            "PyTorch, diffusion and vision models, attention analysis",
+            "Adapter and PEFT design, quantitative and qualitative evaluation"
         ],
         "heroImg": "pixtention_arch.png",
         "heroImgOnGradient": true,
@@ -58,21 +58,21 @@
         "accent": "#c2543a",
         "gradient": "linear-gradient(120deg,#b04a32,#e8845f 60%,#f7c8a8)",
         "title": "LoRA Fusion: Enhancing Image Generation",
-        "period": "Mathematics (IF 2.4), 12(22):3474 · 공동 1저자 · 2024",
+        "period": "Mathematics (IF 2.4), 12(22):3474 · Co-first author · 2024",
         "links": {
             "Paper": "https://doi.org/10.3390/math12223474"
         },
         "heroTitle": "LoRA + LoRA",
-        "heroSub": "복수 LoRA 결합을 통한 이미지 생성 품질 향상",
-        "overview": "이미지 생성 모델에서 <b>복수의 LoRA를 효과적으로 결합(Fusion)하여 생성 품질을 향상</b>시키는 연구입니다. 서로 다른 개념을 학습한 LoRA를 함께 사용할 때 발생하는 품질 저하 문제를 다루었으며, MDPI <b>Mathematics(IF 2.4)에 게재</b>되었습니다. (<b>Dooho Choi*</b>, Jeonghyeon Im*, Yunsick Sung, *공동 1저자)",
+        "heroSub": "Better image generation by combining multiple LoRAs",
+        "overview": "A study on <b>combining multiple LoRAs to improve image generation</b>. It tackles the quality drop that appears when LoRAs trained on different concepts are used together. Published in MDPI <b>Mathematics (IF 2.4)</b>. (<b>Dooho Choi*</b>, Jeonghyeon Im*, Yunsick Sung, *co-first authors)",
         "roles": [
-            "공동 1저자로서 <b>LoRA 결합 방법의 설계·구현과 실험</b>을 수행했습니다.",
-            "Stable Diffusion 기반의 <b>생성 품질 정량·정성 비교 실험</b>과 논문 작성을 진행했습니다.",
-            "본 연구를 시작으로 PixTention, MIDILM으로 이어지는 <b>PEFT 기반 생성 연구 라인</b>을 구축했습니다."
+            "Designed and implemented the <b>LoRA fusion method</b> and ran the experiments as a co-first author.",
+            "Ran <b>quantitative and qualitative quality comparisons</b> on Stable Diffusion and wrote the paper.",
+            "This work started the <b>PEFT-based generation research line</b> that continued into PixTention and MIDILM."
         ],
         "skills": [
             "Stable Diffusion, LoRA, PyTorch",
-            "이미지 생성 평가 지표 및 실험 설계"
+            "Image generation metrics and experiment design"
         ],
         "heroImg": "lorafusion_arch.png",
         "heroImgOnGradient": true,
