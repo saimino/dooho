@@ -16,7 +16,7 @@
     ],
     "hello": {
         "title": "Hi! I'm Dooho 👋",
-        "body": "I study how to generate music and images from text in a controllable way, and I am now focusing on <b>music generation research such as text-to-MIDI</b>. My co-first-author work <b>MIDILM was accepted to the AAAI 2026 Main Track</b>, and my first-author work <b>PixTention was published in Image and Vision Computing (IF 4.7)</b>. This line of work has produced <b>6 papers, 3 patent applications, and 1 registered software copyright</b>. I use <b>PEFT</b> methods such as LoRA and P-Tuning v2 to move large models with small updates, and I serve as a <b>reviewer for EAAI and TCSVT</b>. My team was selected as a <b>top-100 team (of 630) in the AI Champion Program</b>."
+        "body": "I study how to generate music from text in a controllable way, and I am now focusing on music generation research such as <b>text-to-MIDI</b>. My co-first-author work <b>MIDILM was accepted to the AAAI 2026 Main Track</b>, and my first-author work <b>PixTention was published in Image and Vision Computing (IF 4.7)</b>. This line of work has produced <b>6 papers, 3 patent applications, and 1 registered software copyright</b>. I also serve as a <b>reviewer for EAAI and TCSVT</b>, and my team was selected as a <b>top-100 team (of 630) in the AI Champion Program</b>."
     },
     "interests": {
         "note": "Not limited to these.",
