@@ -24,6 +24,10 @@
         {
             "img": "drums.jpg",
             "alt": "Playing drums"
+        },
+        {
+            "img": "sushi.jpg",
+            "alt": "Conveyor belt sushi with friends"
         }
     ]
 }
