@@ -38,7 +38,7 @@
             {
                 "title": "CoMIDI: MIDI Generation Service based on MIDILM",
                 "period": "2026",
-                "role": "Jihyun Im, Dooho Choi, Shuyu Li, Yunsick Sung",
+                "role": "Jeonghyeon Im, Dooho Choi, Shuyu Li, Yunsick Sung",
                 "desc": "Developed <b>CoMIDI, a MIDI generation service built on MIDILM</b> (AAAI 2026), and presented it in a demo session.",
                 "links": {
                     "Link": "https://music-informatics.kr/conferences/ksmi2026"
