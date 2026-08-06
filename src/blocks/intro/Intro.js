@@ -7,7 +7,7 @@ const Intro = ({IntroInfoData, showStatements = true, showSkills = true}) => {
                 <div className="intro wrapper">
                     {IntroInfoData.hello && (
                         <div className="intro-statement">
-                            <h5 className="intro-headline">{IntroInfoData.hello.title}</h5>
+                            <h5 className="intro-headline hello-title">{IntroInfoData.hello.title}</h5>
                             <p className="intro-body" dangerouslySetInnerHTML={{__html: IntroInfoData.hello.body}} />
                         </div>
                     )}
