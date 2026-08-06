@@ -14,10 +14,10 @@
 
 .sidebar {
     position: sticky;
-    top: 1.4rem;
+    top: 1rem;
     width: 250px;
     flex: none;
-    padding-top: 3.4rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 
     .sidebar-photo {
@@ -97,7 +97,7 @@
 .layout-content {
     flex: 1;
     min-width: 0;
-    padding-top: 4.6rem;
+    padding-top: 6rem;
 
     .wrapper {
         max-width: none;
