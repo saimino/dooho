@@ -60,7 +60,7 @@ class PublicationTable extends Component {
         return (
             <div className="publicationTable spacer p-bottom-lg">
                 <div className="wrapper">
-                    <h4>Publications</h4>
+                    <h4>All Publications</h4>
                 <div className={"publicationTable-item-wrapper"} >
                     <div className="publicationTable-items" ref={ ( c ) => this.grid = c }>
                         { PublicationItemData && PublicationItemData.map( ( item, key ) => {
