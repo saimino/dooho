@@ -11,10 +11,7 @@ const Sidebar = () => {
 
             <h3 className="sidebar-name">Dooho Choi</h3>
             <p className="sidebar-role">AI Researcher</p>
-            <p className="sidebar-affil">
-                MSc Student @ <a href="https://www.dongguk.edu/" target="_blank" rel="noopener noreferrer">Dongguk University</a><br/>
-                Advisor: Prof. Yunsick Sung
-            </p>
+            <p className="sidebar-affil">MSc Student</p>
             <p className="sidebar-email">likeb789@dgu.ac.kr</p>
 
             <div className="sidebar-icons">
