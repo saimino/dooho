@@ -30,7 +30,7 @@ const Prof = ({ProfData}) => {
                                         <p>AI researcher <br/>
                                         MSc Student @ <a href='https://www.dongguk.edu/' target="_blank" rel="noopener noreferrer">Dongguk University</a>, Dept. of Computer Science and Artificial Intelligence
                                         &nbsp;(Advisor: Prof. Yunsick Sung 성연식). <br/>
-                                        Research Interest: Controllable Multimodal Generation, Text-to-MIDI Symbolic Music Generation. <br/>
+                                        Research Interest: Symbolic Music Generation (Text-to-MIDI), Controllable Music Generation, Multimodal Model, PEFT. <br/>
                                         likeb789@dgu.ac.kr
                                         </p>
                                         <div className="btn_div">
