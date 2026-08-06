@@ -33,7 +33,7 @@ const Home = () => {
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="description" content="Dooho Choi — MSc student at Dongguk University. Controllable Multimodal Generation, Text-to-MIDI Symbolic Music Generation." />
-                <meta name="keywords" content="controllable generation, multimodal, text-to-MIDI, symbolic music generation, diffusion, LoRA" />
+                <meta name="keywords" content="controllable generation, multimodal, Text-to-MIDI, symbolic music generation, diffusion, LoRA" />
                 <meta name="robots" content="index, follow, noodp" />
                 <meta name="googlebot" content="index, follow" />
                 <meta name="google" content="notranslate" />

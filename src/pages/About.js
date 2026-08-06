@@ -22,7 +22,7 @@ const About = () => {
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="description" content="About Dooho Choi: music-loving AI researcher working on text-to-MIDI generation." />
+                <meta name="description" content="About Dooho Choi: music-loving AI researcher working on Text-to-MIDI generation." />
                 <meta name="keywords" content="" />
                 <meta name="robots" content="index, follow, noodp" />
                 <meta name="googlebot" content="index, follow" />
