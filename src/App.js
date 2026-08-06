@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Redirect, Route, Switch, BrowserRouter, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Blog from './pages/Blog';
 import About from './pages/About';
 import Cv from './pages/Cv';
 import page404 from './pages/404';
@@ -33,10 +32,6 @@ function App() {
                     <Route
                         exact path= "/cv"
                         component={ Cv }
-                    />
-                    <Route
-                        exact path= "/blog"
-                        component={ Blog }
                     />
                     <Route
                         // exact path="/*"

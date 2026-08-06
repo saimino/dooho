@@ -6,7 +6,7 @@ import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
 
 // import PageTitle404 from '../blocks/page-title/PageTitle404';
-// import BackToHome from '../components/button/BackToHome';
+import BackToHome from '../components/button/BackToHome';
 // import SearchForm from '../components/form/SearchForm';
 
 const page404 = () => {
@@ -46,7 +46,7 @@ const page404 = () => {
                                 {/* <SearchForm /> */}
                             </div>
 
-                            {/* <BackToHome /> */}
+                            <BackToHome />
                         </div>
                     </div>
                 </div>

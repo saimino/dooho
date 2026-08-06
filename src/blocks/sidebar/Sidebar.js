@@ -19,7 +19,7 @@ const Sidebar = () => {
                    aria-label="Google Scholar"><i className="ai ai-google-scholar ai-1x"></i></a>
                 <a href="https://github.com/saimino" target="_blank" rel="noopener noreferrer"
                    aria-label="GitHub"><FontAwesomeIcon icon={faGithub}/></a>
-                <a href="https://www.linkedin.com/in/PLACEHOLDER/" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/dooho-choi-3937ab2b6/" target="_blank" rel="noopener noreferrer"
                    aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin}/></a>
             </div>
 
