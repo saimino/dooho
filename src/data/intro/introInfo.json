@@ -15,7 +15,7 @@
         "LLM · Diffusion · Vision-Language Model · Symbolic Music (MIDI) Generation"
     ],
     "hello": {
-        "title": "Hi! I'm Dooho 👋",
+        "title": "Hello! I'm Dooho 👋",
         "body": "I'm an MS student at Dongguk University, advised by Prof. Yunsick Sung. I study how to generate music from text in a controllable way, and I am now focusing on music generation research such as <b>Text-to-MIDI</b>. My co-first-author work <b>MIDILM was accepted to the AAAI 2026 Main Track</b>, and my first-author work <b>PixTention was published in Image and Vision Computing (IF 4.7)</b>. This line of work has produced <b>6 papers and 4 IPs</b>."
     },
     "interests": {
