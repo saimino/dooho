@@ -1,5 +1,5 @@
-import React from 'react';
-import { HashRouter as Router, Redirect, Route, Switch, BrowserRouter, Routes } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { HashRouter as Router, Redirect, Route, Switch, BrowserRouter, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Cv from './pages/Cv';
@@ -16,10 +16,17 @@ if (originalPath) {
   history.replace('/' + originalPath);
 }
 
+function ScrollToTop() {
+    const { pathname } = useLocation();
+    useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+    return null;
+}
+
 function App() {
     return (
         <React.StrictMode>
             <BrowserRouter basename={process.env.PUBLIC_URL} history={history}>
+                <ScrollToTop />
                 <Switch>
                     <Route
                         exact path= "/"
