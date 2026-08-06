@@ -271,7 +271,15 @@
 .about-me {
     padding-top: 2.4rem;
 
-    .intro-headline { margin-bottom: 1.6rem; }
+    .intro-headline {
+        margin-bottom: 1.6rem;
+        font-size: 1.75rem;
+        white-space: nowrap;
+    }
+
+    @media (max-width: 767.98px) {
+        .intro-headline { font-size: 1.35rem; white-space: normal; }
+    }
 
     .about-paragraph {
         margin-bottom: 1.8rem;
