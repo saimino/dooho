@@ -11,7 +11,7 @@ const Sidebar = () => {
 
             <h3 className="sidebar-name">Dooho Choi</h3>
             <p className="sidebar-role">AI Researcher</p>
-            <p className="sidebar-affil">MSc Student</p>
+            <p className="sidebar-affil">MS Student</p>
             <p className="sidebar-email">likeb789@dgu.ac.kr</p>
 
             <div className="sidebar-icons">
