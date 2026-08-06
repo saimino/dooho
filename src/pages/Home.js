@@ -49,8 +49,8 @@ const Home = () => {
                 <Prof ProfData={ProfData}/>
                 <Intro IntroInfoData={IntroInfoData} showStatements={false}/>
                 <Portfolio PortfolioItemData={PortfolioItemData}/>
-                <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>
                 <PublicationTable/>
+                <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>
             </main>
 
             <Footer />

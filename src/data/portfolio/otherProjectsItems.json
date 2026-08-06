@@ -1,42 +1,12 @@
 {
     "menu": [
-        "Research Projects",
+        "Personal Experience",
         "Patents & Software",
         "Presentation",
-        "Personal Experience",
-        "Awards"
+        "Awards",
+        "Research Participation"
     ],
     "items": {
-        "Research Projects": [
-            {
-                "title": "LLM 기반 정보 검색·질의응답(QA) 시스템",
-                "period": "2024 ~ 현재",
-                "role": "특허 출원(10-2024-0118146) & SW 저작권 등록(C-2024-026547)",
-                "desc": "문서 검색과 LLM 응답 생성을 결합한 <b>QA 파이프라인을 설계·구현</b>했습니다. 연구를 확장하여 <b>한국연구재단(NRF) 「문서 내부 특징을 고려한 LLM 연구」</b> 과제를 수행 중입니다 (2025. 09 ~).",
-                "links": {}
-            },
-            {
-                "title": "AI 주행능력 평가 표준화",
-                "period": "2024. 03 ~ 2024. 08",
-                "role": "경찰청 (Korean National Police Agency) 과제 참여",
-                "desc": "AI 기반 주행능력 평가의 <b>표준화 연구 과제</b>를 수행했습니다.",
-                "links": {}
-            },
-            {
-                "title": "AI+X 산학협력 프로젝트 / AI 융합혁신 인재양성",
-                "period": "2024. 03 ~ 현재",
-                "role": "IITP (과학기술정보통신부)",
-                "desc": "산학 도메인 데이터에 <b>AI 모델을 적용하는 과제</b>와 인재양성 프로그램에 참여하고 있습니다.",
-                "links": {}
-            },
-            {
-                "title": "스포츠·게임 도메인 첨단 AI R&D 교육",
-                "period": "2023. 08 ~ 2023. 12",
-                "role": "한국콘텐츠진흥원(KoCCA) · 문화체육관광부",
-                "desc": "스포츠/게임 도메인 특화 <b>AI 연구개발 실무 교육 과정</b>을 수료했습니다.",
-                "links": {}
-            }
-        ],
         "Patents & Software": [
             {
                 "title": "심볼릭 음악 생성 방법 및 장치",
@@ -143,6 +113,36 @@
                 "links": {
                     "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4"
                 }
+            }
+        ],
+        "Research Participation": [
+            {
+                "title": "LLM 기반 정보 검색·질의응답(QA) 시스템",
+                "period": "2024 ~ 현재",
+                "role": "특허 출원(10-2024-0118146) & SW 저작권 등록(C-2024-026547)",
+                "desc": "문서 검색과 LLM 응답 생성을 결합한 <b>QA 파이프라인을 설계·구현</b>했습니다. 연구를 확장하여 <b>한국연구재단(NRF) 「문서 내부 특징을 고려한 LLM 연구」</b> 과제를 수행 중입니다 (2025. 09 ~).",
+                "links": {}
+            },
+            {
+                "title": "AI 주행능력 평가 표준화",
+                "period": "2024. 03 ~ 2024. 08",
+                "role": "경찰청 (Korean National Police Agency) 과제 참여",
+                "desc": "AI 기반 주행능력 평가의 <b>표준화 연구 과제</b>를 수행했습니다.",
+                "links": {}
+            },
+            {
+                "title": "AI+X 산학협력 프로젝트 / AI 융합혁신 인재양성",
+                "period": "2024. 03 ~ 현재",
+                "role": "IITP (과학기술정보통신부)",
+                "desc": "산학 도메인 데이터에 <b>AI 모델을 적용하는 과제</b>와 인재양성 프로그램에 참여하고 있습니다.",
+                "links": {}
+            },
+            {
+                "title": "스포츠·게임 도메인 첨단 AI R&D 교육",
+                "period": "2023. 08 ~ 2023. 12",
+                "role": "한국콘텐츠진흥원(KoCCA) · 문화체육관광부",
+                "desc": "스포츠/게임 도메인 특화 <b>AI 연구개발 실무 교육 과정</b>을 수료했습니다.",
+                "links": {}
             }
         ]
     }
