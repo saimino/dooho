@@ -2,11 +2,8 @@ import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
 
-import Header from '../blocks/header/Header';
+import Sidebar from '../blocks/sidebar/Sidebar';
 import Footer from '../blocks/footer/Footer';
-
-import Prof from '../blocks/peopleCard/Prof'
-import ProfData from '../data/people/prof.json'
 
 import Intro from '../blocks/intro/Intro'
 import IntroInfoData from '../data/intro/introInfo.json';
@@ -43,17 +40,16 @@ const Home = () => {
                 <meta name="format-detection" content="telephone=no" />
             </MetaTags>
 
-            <Header />
-
-            <main id="main" className="site-main font-family">
-                <Prof ProfData={ProfData}/>
-                <Intro IntroInfoData={IntroInfoData} showStatements={false}/>
-                <Portfolio PortfolioItemData={PortfolioItemData}/>
-                <PublicationTable/>
-                <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>
-            </main>
-
-            <Footer />
+            <div className="layout">
+                <Sidebar/>
+                <main id="main" className="site-main font-family layout-content">
+                    <Intro IntroInfoData={IntroInfoData} showStatements={false}/>
+                    <Portfolio PortfolioItemData={PortfolioItemData}/>
+                    <PublicationTable/>
+                    <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>
+                    <Footer />
+                </main>
+            </div>
         </Fragment>
     );
 };
