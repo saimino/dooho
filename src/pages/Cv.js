@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
-import Header from '../blocks/header/Header';
+import Sidebar from '../blocks/sidebar/Sidebar';
 import Footer from '../blocks/footer/Footer';
 
 import CvViewer from '../blocks/cv/CvViewer';
@@ -16,7 +16,7 @@ const Cv = () => {
             <MetaTags>
                 <meta charSet="UTF-8" />
                 <title>Dooho Choi</title>
-                <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,14 +26,14 @@ const Cv = () => {
                 <meta name="google" content="notranslate" />
                 <meta name="format-detection" content="telephone=no" />
             </MetaTags>
-            <Header/>
-
-            <main id="main" className="site-main">
-                <div className="cv-page-spacer" />
-                <CvViewer/>
-            </main>
-
-            <Footer />
+            <div className="layout">
+                <Sidebar/>
+                <main id="main" className="site-main layout-content">
+                    <div className="cv-page-spacer" />
+                    <CvViewer/>
+                    <Footer />
+                </main>
+            </div>
         </Fragment>
     );
 };
