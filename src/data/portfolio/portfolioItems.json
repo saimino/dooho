@@ -50,7 +50,7 @@
         ],
         "heroImg": "pixtention_arch.png",
         "heroImgOnGradient": true,
-        "heroLeft": "LoRA + LoRA + ... (With Attention)",
+        "heroLeft": "LoRA + LoRA + ...<br/>(With Attention)",
         "heroRight": "🖼 Image"
     },
     {
