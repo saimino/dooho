@@ -5,6 +5,25 @@ const Intro = ({IntroInfoData, showStatements = true, showSkills = true}) => {
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="intro wrapper">
+                    {IntroInfoData.hello && (
+                        <div className="intro-statement">
+                            <h5 className="intro-headline">{IntroInfoData.hello.title}</h5>
+                            <p className="intro-body" dangerouslySetInnerHTML={{__html: IntroInfoData.hello.body}} />
+                        </div>
+                    )}
+
+                    {IntroInfoData.interests && (
+                        <Fragment>
+                            <h4>Research interests</h4>
+                            <p className="interest-note">{IntroInfoData.interests.note}</p>
+                            <ul className="star-list">
+                                {IntroInfoData.interests.items.map((it, key) => (
+                                    <li key={key}>{it}</li>
+                                ))}
+                            </ul>
+                        </Fragment>
+                    )}
+
                     {showStatements && IntroInfoData.statements.map((item, key) => (
                         <div className="intro-statement" key={key}>
                             <h5 className="intro-headline" dangerouslySetInnerHTML={{__html: item.headline}} />

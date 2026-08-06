@@ -27,7 +27,7 @@
         "heroImg": "midilm_arch.png",
         "heroImgOnGradient": true,
         "heroLeft": "Text",
-        "heroRight": "🎵 MIDI"
+        "heroRight": "MIDI"
     },
     {
         "logo": "P",
@@ -51,8 +51,8 @@
         ],
         "heroImg": "pixtention_arch.png",
         "heroImgOnGradient": true,
-        "heroLeft": "LoRA + LoRA + ...<br/>(With Attention)",
-        "heroRight": "🖼 Image"
+        "heroLeft": "LoRAs",
+        "heroRight": "Image"
     },
     {
         "logo": "L",
@@ -78,6 +78,6 @@
         "heroImg": "lorafusion_arch.png",
         "heroImgOnGradient": true,
         "heroLeft": "LoRA + LoRA + ...",
-        "heroRight": "🖼 Image"
+        "heroRight": "Image"
     }
 ]

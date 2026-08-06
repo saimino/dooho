@@ -28,7 +28,7 @@ const Prof = ({ProfData}) => {
                                     <div className="info_div">
                                         <h4>{item.title}</h4>
                                         <p>AI researcher <br/>
-                                        MSc Student @ <a href='https://www.dongguk.edu/' target="_blank" rel="noopener noreferrer">Dongguk University</a>, Dept. of Computer Science and Artificial Intelligence
+                                        MS Student @ <a href='https://www.dongguk.edu/' target="_blank" rel="noopener noreferrer">Dongguk University</a>, Dept. of Computer Science and Artificial Intelligence
                                         &nbsp;(Advisor: Prof. Yunsick Sung 성연식). <br/>
                                         Research Interest: Symbolic Music Generation (Text-to-MIDI), Multimodal Model, PEFT. <br/>
                                         likeb789@dgu.ac.kr
