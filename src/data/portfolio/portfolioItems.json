@@ -54,31 +54,5 @@
         "heroImgOnGradient": true,
         "heroLeft": "LoRAs",
         "heroRight": "Image"
-    },
-    {
-        "logo": "L",
-        "accent": "#c2543a",
-        "gradient": "linear-gradient(120deg,#b04a32,#e8845f 60%,#f7c8a8)",
-        "title": "LoRA Fusion: Enhancing Image Generation",
-        "period": "Mathematics (IF 2.4), 12(22):3474 · Co-first author · 2024",
-        "links": {
-            "Paper": "https://doi.org/10.3390/math12223474"
-        },
-        "heroTitle": "LoRA + LoRA",
-        "heroSub": "Better image generation by combining multiple LoRAs",
-        "overview": "A study on <b>combining multiple LoRAs to improve image generation</b>. It tackles the quality drop that appears when LoRAs trained on different concepts are used together. Published in MDPI <b>Mathematics (IF 2.4)</b>. (<b>Dooho Choi*</b>, Jeonghyeon Im*, Yunsick Sung, *co-first authors)",
-        "roles": [
-            "Designed and implemented the <b>LoRA fusion method</b> and ran the experiments as a co-first author.",
-            "Ran <b>quantitative and qualitative quality comparisons</b> on Stable Diffusion and wrote the paper.",
-            "This work started the <b>PEFT-based generation research line</b> that continued into PixTention and MIDILM."
-        ],
-        "skills": [
-            "Stable Diffusion, LoRA, PyTorch",
-            "Image generation metrics and experiment design"
-        ],
-        "heroImg": "lorafusion_arch.png",
-        "heroImgOnGradient": true,
-        "heroLeft": "LoRA + LoRA + ...",
-        "heroRight": "Image"
     }
 ]
