@@ -14,9 +14,10 @@
         "heroSub": "Dual-Path Model for Controllable Symbolic Music Generation",
         "overview": "A <b>dual-path model that generates controllable symbolic music (MIDI) from text prompts</b>. It turns conditions written in natural language into musical structure, and was <b>accepted to the 40th AAAI (2026) Main Track</b>. (Shuyu Li*, <b>Dooho Choi*</b>, Yunsick Sung, *co-first authors)",
         "roles": [
-            "Co-designed the <b>dual-path decoder with modality isolation</b>: text and MIDI tokens share one masked self-attention stack, then split into a dedicated MLP path for text and a <b>MoE path (8 experts per layer, top-2 routing)</b> for musical structure.",
-            "Implemented the training pipeline with the combined objective of <b>cross-entropy and a MoE load-balancing loss</b>, and trained the 12-layer decoder with rotary positional encoding on <b>MidiCaps (168K text-MIDI pairs, REMI+ 515-token vocabulary)</b>.",
-            "Ran the evaluation on semantic and structural metrics (<b>CLAP, CLaMP 3, TB/TBT, CK/CKD, CR</b>), where MIDILM beat the strongest baseline by <b>6.07% on CLAP up to 144.77% on TB</b>.",
+            "<b>Ran the main experiments</b>: trained the 12-layer dual-path decoder (rotary positional encoding, MoE with 8 experts per layer and top-2 routing) on <b>MidiCaps (168K text-MIDI pairs, REMI+ 515-token vocabulary)</b> with the combined objective of cross-entropy and a MoE load-balancing loss.",
+            "<b>Led the evaluation</b> on semantic and structural metrics (<b>CLAP, CLaMP 3, TB/TBT, CK/CKD, CR</b>), where MIDILM beat the strongest baseline by <b>6.07% on CLAP up to 144.77% on TB</b>.",
+            "<b>Co-wrote the paper</b> as a co-first author with Shuyu Li.",
+            "<b>Presented the poster at AAAI 2026 (Singapore)</b> in person.",
             "Filed <b>two patents</b> based on this work (Symbolic Music Generation Method and Device 10-2025-0139998, Symbolic Music Prediction Model Training Method 10-2025-0139997).",
             "Selected as a <b>top-100 team (of 630) in the AI Champion Program</b>, and exhibited and presented the framework at <b>2025 AI Festa (COEX)</b>."
         ],
