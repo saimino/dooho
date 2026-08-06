@@ -43,10 +43,10 @@ const Portfolio = ({PortfolioItemData}) => {
                                 </div>
                             )}
 
-                            <h6>개요 📄</h6>
+                            <h6>Overview 📄</h6>
                             <p className="portfolio-overview" dangerouslySetInnerHTML={{__html: item.overview}} />
 
-                            <h6>역할 🧑‍💻</h6>
+                            <h6>Role 🧑‍💻</h6>
                             <ul className="star-list">
                                 {item.roles.map((role, index) => (
                                     <li key={index} dangerouslySetInnerHTML={{__html: role}} />
