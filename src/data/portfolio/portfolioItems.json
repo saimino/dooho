@@ -52,7 +52,7 @@
         ],
         "heroImg": "pixtention_arch.png",
         "heroImgOnGradient": true,
-        "heroLeft": "LoRAs",
+        "heroLeft": "Text",
         "heroRight": "Image"
     }
 ]
