@@ -21,9 +21,9 @@
     "interests": {
         "note": "Not limited to these.",
         "items": [
-            "Symbolic Music Generation (Text-to-MIDI)",
             "Multimodal Model",
-            "Parameter-Efficient Fine-Tuning (PEFT)"
+            "Parameter-Efficient Fine-Tuning (PEFT)",
+            "Symbolic Music Generation (Text-to-MIDI)"
         ]
     }
 }
