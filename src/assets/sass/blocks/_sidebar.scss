@@ -128,3 +128,29 @@
         }
     }
 }
+
+/* ---------- print: hide sidebar, full-width content ---------- */
+@media print {
+    html {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    body { background: #fff; }
+
+    .sidebar { display: none !important; }
+
+    .layout {
+        display: block;
+        max-width: none;
+        padding: 0 0.5rem;
+    }
+
+    .layout-content { padding-top: 0.5rem; }
+
+    .op-filter { display: none; }
+
+    .publicationTable-item,
+    .op-item,
+    .portfolio-head { break-inside: avoid; }
+}
