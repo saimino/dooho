@@ -391,3 +391,22 @@
         }
     }
 }
+
+/* ---------- print: compact one-line hero cards ---------- */
+@media print {
+    .portfolio .portfolio-hero-img.on-gradient {
+        flex-wrap: nowrap;
+        break-inside: avoid;
+        page-break-inside: avoid;
+        gap: 0.8rem;
+        padding: 1.2rem 0.8rem;
+
+        img {
+            max-height: 10.5rem;
+            max-width: 58%;
+        }
+
+        .hero-flank { font-size: 1.05rem; }
+        .hero-arrow { font-size: 1.05rem; }
+    }
+}
