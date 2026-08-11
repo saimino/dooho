@@ -23,7 +23,8 @@
         "items": [
             "Multimodal Model",
             "Parameter-Efficient Fine-Tuning (PEFT)",
-            "Symbolic Music Generation (Text-to-MIDI)"
+            "Symbolic Music Generation (Text-to-MIDI)",
+            "Large Language Model (LLM)"
         ]
     }
 }
