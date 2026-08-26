@@ -16,7 +16,7 @@
     ],
     "hello": {
         "title": "Hello! I'm Dooho 👋",
-        "body": "I'm an MS student at Dongguk University, advised by Prof. Yunsick Sung. I study how to generate music and images from text in a controllable way, and I am now focusing on <b>multimodal research</b>. My co-first-author work <b>MIDILM was accepted to the AAAI 2026 Main Track</b>, and my first-author work <b>PixTention was published in Image and Vision Computing (IF 4.7)</b>. So far, my research has led to <b>6 papers and 4 IPs</b>."
+        "body": "I received my MS from Dongguk University in August 2026, advised by Prof. Yunsick Sung. I study how to generate music and images from text in a controllable way, and I am now focusing on <b>multimodal research</b>. My co-first-author work <b>MIDILM was accepted to the AAAI 2026 Main Track</b>, and my first-author work <b>PixTention was published in Image and Vision Computing (IF 4.7)</b>. So far, my research has led to <b>6 papers and 4 IPs</b>."
     },
     "interests": {
         "note": "Not limited to these.",
