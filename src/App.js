@@ -3,6 +3,7 @@ import { HashRouter as Router, Redirect, Route, Switch, BrowserRouter, Routes, u
 import Home from './pages/Home';
 import About from './pages/About';
 import Cv from './pages/Cv';
+import NewsPage from './pages/News';
 import page404 from './pages/404';
 
 import { createBrowserHistory } from 'history';
@@ -31,6 +32,10 @@ function App() {
                     <Route
                         exact path= "/"
                         component={ Home }
+                    />
+                    <Route
+                        exact path= "/news"
+                        component={ NewsPage }
                     />
                     <Route
                         exact path= "/about"

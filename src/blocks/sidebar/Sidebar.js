@@ -25,6 +25,7 @@ const Sidebar = () => {
 
             <nav className="sidebar-nav">
                 <NavLink exact to="/" activeClassName="active">Home</NavLink>
+                <NavLink to="/news" activeClassName="active">News</NavLink>
                 <NavLink to="/about" activeClassName="active">About Me</NavLink>
                 <NavLink to="/cv" activeClassName="active">CV</NavLink>
             </nav>
