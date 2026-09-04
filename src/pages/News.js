@@ -1,0 +1,41 @@
+import React, { Fragment } from 'react';
+import MetaTags from 'react-meta-tags';
+
+import Sidebar from '../blocks/sidebar/Sidebar';
+import Footer from '../blocks/footer/Footer';
+
+import News from '../blocks/news/News';
+import NewsInfoData from '../data/news/newsinfo.json';
+
+const NewsPage = () => {
+    document.body.classList.add( 'about' );
+    document.body.classList.add( 'bg-fixed' );
+    document.body.classList.add( 'bg-color-custom' );
+
+    return (
+        <Fragment>
+            <MetaTags>
+                <meta charSet="UTF-8" />
+                <title>Dooho Choi</title>
+                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
+                <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="description" content="News: awards, publications, and presentations of Dooho Choi" />
+                <meta name="robots" content="index, follow, noodp" />
+                <meta name="googlebot" content="index, follow" />
+                <meta name="google" content="notranslate" />
+                <meta name="format-detection" content="telephone=no" />
+            </MetaTags>
+            <div className="layout">
+                <Sidebar/>
+                <main id="main" className="site-main layout-content">
+                    <News NewsInfoData={NewsInfoData}/>
+                    <Footer />
+                </main>
+            </div>
+        </Fragment>
+    );
+};
+
+export default NewsPage;

@@ -1,37 +1,27 @@
-import { React, Fragment } from 'react';
-import LinkButton from '../../components/button/LinkButton';
+import React from 'react';
 
 const News = ({NewsInfoData}) => {
     return (
-        <section id="page-content" className="spacer p-top-lg p-bottom-lg">
+        <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="news wrapper">
                     <h4>News</h4>
-                    <ul>
-                    {NewsInfoData.map((item) => {
-                        if (item.link === ""){
-                            return (
-                                <Fragment>
-                                    <li> {item.date} | {item.contents}</li>
-                                </Fragment>
-                            );
-                        } else {
-                            return (
-                                <Fragment>
-                                    <li> {item.date} | {item.contents} 
-                                    <LinkButton keyword = "Link"
-                                        link={item.link}
-                                        position = "inline"
-                                        textcolor = "has-white-color"
-                                        backgroundcolor = "has-gray-dark-background-color"
-                                    />
-                                    </li>
-                                </Fragment>
-                            );
-                        }
-                    } ) }
+                    <ul className="news-list">
+                        {NewsInfoData.map((item, key) => (
+                            <li className="news-item" key={key}>
+                                <span className="news-date">{item.date}</span>
+                                <div className="news-body">
+                                    <span className="news-text" dangerouslySetInnerHTML={{__html: item.contents}} />
+                                    {Object.keys(item.links || {}).map((name, i) => (
+                                        <a key={i} className="portfolio-pill" href={item.links[name]}
+                                           target="_blank" rel="noopener noreferrer">
+                                            {name} <span className="arrow">↗</span>
+                                        </a>
+                                    ))}
+                                </div>
+                            </li>
+                        ))}
                     </ul>
-                    {/* <hr/> */}
                 </div>
             </div>
         </section>

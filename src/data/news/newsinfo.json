@@ -1,37 +1,82 @@
 [
     {
-        "date":"2026",
-        "contents":"MIDILM accepted to AAAI 2026!",
-        "link": ""
+        "date": "Aug 2026",
+        "contents": "Received my <b>MS degree</b> from Dongguk University, advised by Prof. Yunsick Sung.",
+        "links": {}
     },
     {
-        "date":"2026",
-        "contents":"Started serving as a reviewer for EAAI (Elsevier) and IEEE TCSVT.",
-        "link": ""
+        "date": "2026",
+        "contents": "Presented <b>CoMIDI</b>, a MIDI generation service built on MIDILM, in the demo session at <b>KSMI 2026</b>. <b>MidiFill</b> was also presented at KSMI 2026.",
+        "links": { "Link": "https://music-informatics.kr/conferences/ksmi2026" }
     },
     {
-        "date":"2025",
-        "contents":"Team MIDILM exhibited and presented at 2025 AI Festa (COEX)!",
-        "link": "https://cs.dongguk.edu/article/webz/detail/1241"
+        "date": "2026",
+        "contents": "<b>Few-shot LoRA Tuning for Genre-Specific Music Generation</b> published in <b>Complex &amp; Intelligent Systems</b>.",
+        "links": { "Paper": "https://doi.org/10.1007/s40747-026-02285-5" }
     },
     {
-        "date":"2025",
-        "contents":"Selected as a Top-100 team (of 630) in the AI Champion Program (Ministry of Science and ICT)!",
-        "link": ""
+        "date": "Jan 2026",
+        "contents": "Presented the <b>MIDILM</b> poster at <b>AAAI 2026</b>.",
+        "links": { "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483", "Demo": "https://large-multimodal-model-lab.github.io/MIDILM/" }
     },
     {
-        "date":"2025",
-        "contents":"PixTention published in Image and Vision Computing (IVC)!",
-        "link": "https://doi.org/10.1016/j.imavis.2025.105746"
+        "date": "Nov 2025",
+        "contents": "<b>MIDILM: A Dual-Path Model for Controllable Text-to-MIDI Generation</b> accepted to <b>AAAI 2026</b> (Main Track)! 🎉",
+        "links": {}
     },
     {
-        "date":"2025",
-        "contents":"Enhanced BLIP-2 Optimization Using LoRA published in Applied Sciences!",
-        "link": "https://doi.org/10.3390/app15073712"
+        "date": "2025",
+        "contents": "Filed two patents on symbolic music generation based on the MIDILM research (KR 10-2025-0139998, 10-2025-0139997).",
+        "links": {}
     },
     {
-        "date":"2024",
-        "contents":"LoRA Fusion published in Mathematics!",
-        "link": "https://doi.org/10.3390/math12223474"
+        "date": "Sep 30 ~ Oct 2, 2025",
+        "contents": "Team MIDILM <b>exhibited and presented</b> our natural-language MIDI generation framework at the <b>2025 AI Festa</b> (COEX Hall A), as one of 29 exhibiting teams.",
+        "links": { "News": "https://cs.dongguk.edu/article/webz/detail/1241" }
+    },
+    {
+        "date": "2025",
+        "contents": "Selected as a <b>Top-100 team (of 630)</b> in the <b>AI Champion Program</b> hosted by the Ministry of Science and ICT! 🏆",
+        "links": {}
+    },
+    {
+        "date": "2025",
+        "contents": "<b>PixTention: Dynamic Pixel-level Adapter using Attention Maps</b> published in <b>Image and Vision Computing (IVC)</b>.",
+        "links": { "Paper": "https://doi.org/10.1016/j.imavis.2025.105746" }
+    },
+    {
+        "date": "2025",
+        "contents": "<b>Enhanced BLIP-2 Optimization Using LoRA for Generating Dashcam Captions</b> published in <b>Applied Sciences</b>.",
+        "links": { "Paper": "https://doi.org/10.3390/app15073712" }
+    },
+    {
+        "date": "2025",
+        "contents": "Started serving as a reviewer for <b>EAAI</b> (Elsevier) and <b>IEEE TCSVT</b>.",
+        "links": {}
+    },
+    {
+        "date": "Nov 2024",
+        "contents": "<b>LoRA Fusion: Enhancing Image Generation</b> published in <b>Mathematics</b>.",
+        "links": { "Paper": "https://doi.org/10.3390/math12223474" }
+    },
+    {
+        "date": "2024",
+        "contents": "Filed a patent (KR 10-2024-0118146) and registered a software copyright (C-2024-026547) for the <b>LLM-based Information Retrieval and QA System</b>.",
+        "links": {}
+    },
+    {
+        "date": "Mar 2024",
+        "contents": "Started my MS at <b>Dongguk University</b> (Large Multimodal Model Lab), advised by Prof. Yunsick Sung.",
+        "links": {}
+    },
+    {
+        "date": "Dec 2023",
+        "contents": "Won the <b>Dean's Award</b> at the 2023 Winter ICIP &amp; Capstone Design (Dongguk University) with the local LLM persona NPC project. 🏆",
+        "links": { "Notion": "https://marvelous-gondola-191.notion.site/Unity-Local-LLM-fine-tune-NPC-a88cac10ac3e44c38b2161e1af4cf5dd?pvs=4" }
+    },
+    {
+        "date": "Dec 2023",
+        "contents": "Won the <b>Excellence Award</b> at the 2023 SKT Corporate Capstone Design with the SKT AI BLOG project. 🏆",
+        "links": { "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4" }
     }
 ]
