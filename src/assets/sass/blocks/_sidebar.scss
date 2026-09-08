@@ -140,6 +140,9 @@
 
     .sidebar { display: none !important; }
 
+    /* Chrome rasterizes box-shadows into gray bitmaps in PDF output */
+    .portfolio .portfolio-logo { box-shadow: none !important; }
+
     .layout {
         display: block;
         max-width: none;
