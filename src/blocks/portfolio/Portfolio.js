@@ -46,12 +46,14 @@ const Portfolio = ({PortfolioItemData}) => {
                             <h6>Overview</h6>
                             <p className="portfolio-overview" dangerouslySetInnerHTML={{__html: item.overview}} />
 
-                            <h6>My Role</h6>
-                            <ul className="star-list">
-                                {item.roles.map((role, index) => (
-                                    <li key={index} dangerouslySetInnerHTML={{__html: role}} />
-                                ))}
-                            </ul>
+                            <div className="portfolio-role">
+                                <h6>My Role</h6>
+                                <ul className="star-list">
+                                    {item.roles.map((role, index) => (
+                                        <li key={index} dangerouslySetInnerHTML={{__html: role}} />
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     ))}
                 </div>
