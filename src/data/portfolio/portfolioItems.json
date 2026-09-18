@@ -1,5 +1,21 @@
 [
     {
+        "logo": "Q",
+        "accent": "#c8621a",
+        "gradient": "linear-gradient(120deg,#b9540f,#f0923a 58%,#fbd3a0)",
+        "title": "Qwen3-0.6B Quantization: 4-bit PTQ with Mixed Precision",
+        "period": "Individual project · Aug 2026",
+        "links": {},
+        "heroTitle": "FP16 → W4",
+        "heroSub": "Post-Training Quantization of Qwen3-0.6B · 3.77× smaller",
+        "overview": "Compressed the <b>Qwen3-0.6B transformer body to 26.5% of FP16 (3.77×)</b> with post-training quantization, keeping <b>MMLU at 0.383 (FP16 0.406) and perplexity at 29.72 (FP16 28.65)</b>. The final model beats the official AutoAWQ checkpoint on every measured axis at equal size.",
+        "roles": [
+            "Built the pipeline step by step: <b>RTN baseline, Hessian-weighted clip search, GPTQ + AWQ</b>, then <b>mixed precision (3 to 8 bit) allocated by an output-KL sensitivity knapsack</b>.",
+            "<b>Compared 13 methods under the same size budget</b> (AutoRound, QLoRA, QA-LoRA, KD-QAT, FSQ, Hadamard rotation and more), ranking by seed means because MMLU on a 0.6B model flips 22 to 24% of items under any perturbation.",
+            "Studied <b>W4A8 activation quantization</b>, where outlier channels reach 2642× the median, and <b>reproduced DREAM-MoE</b> on DeepSeek-V2-Lite W4 (ppl 8.324 vs 8.30 in the paper)."
+        ]
+    },
+    {
         "logo": "M",
         "accent": "#6a5be2",
         "gradient": "linear-gradient(120deg,#5b4bd4,#8f7bff 55%,#c9b8ff)",
