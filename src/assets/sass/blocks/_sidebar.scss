@@ -159,6 +159,9 @@
 
     /* PDF page breaks: keep "My Role" whole, start publications on a new page */
     .portfolio .portfolio-role { break-inside: avoid; page-break-inside: avoid; }
+    /* keep each project card whole; padding stops the title's line-height crop leaking to the previous page */
+    .portfolio .portfolio-item { break-inside: avoid; page-break-inside: avoid; padding-top: 1.2rem; margin-bottom: 2rem !important; }
+    .portfolio .portfolio-hero:not(.portfolio-hero-img) { height: 7.5rem !important; min-height: 0 !important; }
     /* padding keeps the heading's negative line-height crop from leaking onto the previous page */
     .publicationTable { break-before: page; page-break-before: always; padding-top: 1.5rem !important; }
 }
