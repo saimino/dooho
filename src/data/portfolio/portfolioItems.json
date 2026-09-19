@@ -5,7 +5,9 @@
         "gradient": "linear-gradient(120deg,#b9540f,#f0923a 58%,#fbd3a0)",
         "title": "Qwen3-0.6B Quantization: 4-bit PTQ with Mixed Precision",
         "period": "Individual project · Aug 2026",
-        "links": {},
+        "links": {
+            "File": "https://saimino.github.io/dooho/assets/pdf/DoohoChoi_Quantization.pdf"
+        },
         "heroTitle": "FP16 → W4",
         "heroSub": "Post-Training Quantization of Qwen3-0.6B · 3.77× smaller",
         "overview": "Compressed the <b>Qwen3-0.6B transformer body to 26.5% of FP16 (3.77×)</b> with post-training quantization, keeping <b>MMLU at 0.383 (FP16 0.406) and perplexity at 29.72 (FP16 28.65)</b>. The final model beats the official AutoAWQ checkpoint on every measured axis at equal size.",
