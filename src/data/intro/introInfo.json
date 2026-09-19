@@ -22,8 +22,7 @@
         "note": "Not limited to these.",
         "items": [
             "Quantization",
-            "Multimodal Model",
-            "Large Language Model (LLM)"
+            "Multimodal Model"
         ]
     }
 }
