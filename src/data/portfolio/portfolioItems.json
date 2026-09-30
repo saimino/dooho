@@ -3,7 +3,7 @@
         "logo": "Q",
         "accent": "#c8621a",
         "gradient": "linear-gradient(120deg,#b9540f,#f0923a 58%,#fbd3a0)",
-        "title": "Qwen3-0.6B Quantization: 4-bit PTQ with Mixed Precision",
+        "title": "Qwen3-0.6B Quantization",
         "period": "Individual project · Aug 2026",
         "links": {
             "File": "https://saimino.github.io/dooho/assets/pdf/DoohoChoi_Quantization.pdf"
