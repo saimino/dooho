@@ -21,8 +21,8 @@
     "interests": {
         "note": "Not limited to these.",
         "items": [
-            "Quantization",
-            "Multimodal Model"
+            "Multimodal Model",
+            "Quantization"
         ]
     }
 }

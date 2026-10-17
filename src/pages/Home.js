@@ -44,8 +44,8 @@ const Home = () => {
                 <Sidebar/>
                 <main id="main" className="site-main font-family layout-content">
                     <Intro IntroInfoData={IntroInfoData} showStatements={false} showSkills={false}/>
-                    <Portfolio PortfolioItemData={PortfolioItemData}/>
                     <PublicationTable/>
+                    <Portfolio PortfolioItemData={PortfolioItemData}/>
                     <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>
                     <Footer />
                 </main>
