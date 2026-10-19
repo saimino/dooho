@@ -16,19 +16,22 @@ const withBoldName = (authors) => {
 };
 
 const PublicationItems = () => PublicationItemData.map((item, key) => (
-    <div className="op-item" key={'pub' + key}>
+    <div className="op-item op-pub" key={'pub' + key}>
         <div className="op-head">
             <h6>{item.title}</h6>
-            <span className="op-period">{item.year}</span>
-            {item.material && Object.keys(item.material).map((name, index) => (
-                <a key={index} className="portfolio-pill" href={item.material[name]}
-                   target="_blank" rel="noopener noreferrer">
-                    {pillName(name)} <span className="arrow">↗</span>
-                </a>
-            ))}
         </div>
-        <p className="op-role">{withBoldName(item.Authors)}</p>
-        <p className="op-desc">{item.bookTitle}</p>
+        <p className="op-authors">{withBoldName(item.Authors)}</p>
+        <p className="op-venue">{item.bookTitle}</p>
+        {item.material && Object.keys(item.material).length > 0 && (
+            <div className="op-links">
+                {Object.keys(item.material).map((name, index) => (
+                    <a key={index} className="portfolio-pill" href={item.material[name]}
+                       target="_blank" rel="noopener noreferrer">
+                        {pillName(name)} <span className="arrow">↗</span>
+                    </a>
+                ))}
+            </div>
+        )}
     </div>
 ));
 

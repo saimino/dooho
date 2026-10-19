@@ -385,7 +385,23 @@
 .other-projects {
     .op-group { display: none; }
     .op-group.active { display: block; animation: opFadeIn 0.35s ease both; }
-    .op-role b { color: #2b2b2b; }
+    .op-authors {
+        color: #3c3c3a;
+        font-size: 0.92rem;
+        margin-bottom: 0.1rem;
+        b { color: #1a1a1a; }
+    }
+    .op-venue {
+        color: #8a8a86;
+        font-size: 0.88rem;
+        margin-bottom: 0;
+    }
+    .op-links {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        margin-top: 0.45rem;
+    }
     .op-group-title { display: none; }
 }
 
