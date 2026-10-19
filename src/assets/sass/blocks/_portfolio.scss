@@ -385,6 +385,10 @@
 .other-projects {
     .op-group { display: none; }
     .op-group.active { display: block; animation: opFadeIn 0.35s ease both; }
+    .op-pub .op-head h6 {
+        margin-bottom: 0.3rem;
+        &::after { content: none; }
+    }
     .op-authors {
         color: #3c3c3a;
         font-size: 0.92rem;
