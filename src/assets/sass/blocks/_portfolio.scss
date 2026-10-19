@@ -23,7 +23,8 @@
 /* Bullet list shared by intro & portfolio: small neutral dot */
 .star-list {
     list-style: none !important;
-    padding-left: 0;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
     li {
         position: relative;
         padding: 0 0 0 1.15rem;
@@ -37,6 +38,8 @@
             height: 5px;
             border-radius: 50%;
             background: #9a9a96;
+            margin: 0;
+            display: block;
         }
     }
 }
