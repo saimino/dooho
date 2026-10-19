@@ -4,18 +4,20 @@
         "accent": "#c8621a",
         "gradient": "linear-gradient(120deg,#b9540f,#f0923a 58%,#fbd3a0)",
         "title": "Qwen3-0.6B Quantization",
-        "period": "Individual project · Aug 2026",
+        "period": "Personal study · Aug 2026",
         "links": {
             "File": "https://saimino.github.io/dooho/assets/pdf/DoohoChoi_Quantization.pdf"
         },
         "heroTitle": "FP16 → W4",
-        "heroSub": "Post-Training Quantization of Qwen3-0.6B · 3.77× smaller",
-        "overview": "Compressed the <b>Qwen3-0.6B transformer body to 26.5% of FP16 (3.77×)</b> with post-training quantization, keeping <b>MMLU at 0.383 (FP16 0.406) and perplexity at 29.72 (FP16 28.65)</b>. The final model beats the official AutoAWQ checkpoint on every measured axis at equal size.",
+        "heroSub": "Personal study on post-training quantization",
+        "overview": "A personal study project on post-training quantization. I compressed <b>Qwen3-0.6B</b> to about a quarter of its FP16 size with 4-bit weights, trying common methods such as <b>RTN, GPTQ, and AWQ</b> to see how they behave on a small LLM.",
         "roles": [
-            "Built the pipeline step by step: <b>RTN baseline, Hessian-weighted clip search, GPTQ + AWQ</b>, then <b>mixed precision (3 to 8 bit) allocated by an output-KL sensitivity knapsack</b>.",
-            "<b>Compared 13 methods under the same size budget</b> (AutoRound, QLoRA, QA-LoRA, KD-QAT, FSQ, Hadamard rotation and more), ranking by seed means because MMLU on a 0.6B model flips 22 to 24% of items under any perturbation.",
-            "Studied <b>W4A8 activation quantization</b>, where outlier channels reach 2642× the median: per-token INT8 activations hold perplexity, while INT4 activations collapse."
-        ]
+            "<b>Simple choices mattered most.</b> Group size and the clipping range changed the results more than any of the more complex methods I tried.",
+            "<b>One metric is not enough.</b> A quantized model scored above FP16 on MMLU while its perplexity got worse, so I learned to read several metrics together.",
+            "<b>Small models make noisy benchmarks.</b> On a 0.6B model, any small change flipped about a fifth of the MMLU answers, so I compared averages over several seeds instead of single runs.",
+            "<b>Activations are harder than weights.</b> A few outlier channels were thousands of times larger than the rest, which made 4-bit activations break down."
+        ],
+        "rolesTitle": "What I Learned"
     },
     {
         "logo": "M",

@@ -47,7 +47,7 @@ const Portfolio = ({PortfolioItemData}) => {
                             <p className="portfolio-overview" dangerouslySetInnerHTML={{__html: item.overview}} />
 
                             <div className="portfolio-role">
-                                <h6>My Role</h6>
+                                <h6>{item.rolesTitle || 'My Role'}</h6>
                                 <ul className="star-list">
                                     {item.roles.map((role, index) => (
                                         <li key={index} dangerouslySetInnerHTML={{__html: role}} />
