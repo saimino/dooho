@@ -33,7 +33,7 @@
             content: "";
             position: absolute;
             left: 0.2rem;
-            top: 0.68em;
+            top: calc(0.615em - 2.5px);
             width: 5px;
             height: 5px;
             border-radius: 50%;
