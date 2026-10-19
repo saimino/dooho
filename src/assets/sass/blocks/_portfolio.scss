@@ -372,16 +372,26 @@
     margin-bottom: 1.1rem;
 }
 
+@keyframes opFadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .other-projects .op-group.active { animation: none; }
+}
+
 /* ---------- other projects: groups (screen shows selected, print shows all) ---------- */
 .other-projects {
     .op-group { display: none; }
-    .op-group.active { display: block; }
+    .op-group.active { display: block; animation: opFadeIn 0.35s ease both; }
+    .op-role b { color: #2b2b2b; }
     .op-group-title { display: none; }
 }
 
 @media print {
     .other-projects {
-        .op-group { display: block !important; }
+        .op-group { display: block !important; animation: none !important; }
 
         .op-group-title {
             display: block;

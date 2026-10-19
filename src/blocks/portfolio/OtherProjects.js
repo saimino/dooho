@@ -1,7 +1,39 @@
 import React, { useState } from 'react';
+import PublicationItemData from '../../data/publication/publicationItems.json';
+
+const PUBLICATIONS = 'All Publications';
+
+const pillName = (key) => key.charAt(0).toUpperCase() + key.slice(1);
+
+const withBoldName = (authors) => {
+    const parts = authors.split('Dooho Choi');
+    return parts.map((part, i) => (
+        <React.Fragment key={i}>
+            {part}
+            {i < parts.length - 1 && <b>Dooho Choi</b>}
+        </React.Fragment>
+    ));
+};
+
+const PublicationItems = () => PublicationItemData.map((item, key) => (
+    <div className="op-item" key={'pub' + key}>
+        <div className="op-head">
+            <h6>{item.title}</h6>
+            <span className="op-period">{item.year}</span>
+            {item.material && Object.keys(item.material).map((name, index) => (
+                <a key={index} className="portfolio-pill" href={item.material[name]}
+                   target="_blank" rel="noopener noreferrer">
+                    {pillName(name)} <span className="arrow">↗</span>
+                </a>
+            ))}
+        </div>
+        <p className="op-role">{withBoldName(item.Authors)}</p>
+        <p className="op-desc">{item.bookTitle}</p>
+    </div>
+));
 
 const OtherProjects = ({OtherProjectsItemData}) => {
-    const menu = OtherProjectsItemData.menu;
+    const menu = [PUBLICATIONS, ...OtherProjectsItemData.menu];
     const [selected, setSelected] = useState(menu[0]);
 
     return (
@@ -23,7 +55,8 @@ const OtherProjects = ({OtherProjectsItemData}) => {
                     {menu.map((name) => (
                         <div key={name} className={"op-group" + (name === selected ? " active" : "")}>
                             <h5 className="op-group-title">{name}</h5>
-                            {(OtherProjectsItemData.items[name] || []).map((item, key) => (
+                            {name === PUBLICATIONS ? <PublicationItems/> :
+                                (OtherProjectsItemData.items[name] || []).map((item, key) => (
                                 <div className="op-item" key={name + key}>
                                     <div className="op-head">
                                         <h6>{item.title}</h6>

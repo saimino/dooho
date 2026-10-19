@@ -11,7 +11,6 @@ import IntroInfoData from '../data/intro/introInfo.json';
 import Portfolio from '../blocks/portfolio/Portfolio'
 import PortfolioItemData from '../data/portfolio/portfolioItems.json';
 
-import PublicationTable from '../blocks/publicationTable/PublicationTable';
 
 import OtherProjects from '../blocks/portfolio/OtherProjects';
 import OtherProjectsItemData from '../data/portfolio/otherProjectsItems.json';
@@ -45,7 +44,6 @@ const Home = () => {
                 <main id="main" className="site-main font-family layout-content">
                     <Intro IntroInfoData={IntroInfoData} showStatements={false} showSkills={false}/>
                     <Portfolio PortfolioItemData={PortfolioItemData}/>
-                    <PublicationTable/>
                     <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>
                     <Footer />
                 </main>
