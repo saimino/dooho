@@ -165,4 +165,5 @@
     /* padding keeps the heading's negative line-height crop from leaking onto the previous page */
     .publicationTable { padding-top: 1.5rem !important; }
     .other-projects .op-item { padding-top: 0.6rem; }
+    .other-projects .op-group-title { break-after: avoid; page-break-after: avoid; }
 }
