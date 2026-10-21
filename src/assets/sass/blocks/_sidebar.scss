@@ -3,6 +3,9 @@
 // sidebar layout
 //=================================================
 
+/* always reserve the scrollbar so short pages (About) do not change width */
+html { overflow-y: scroll; }
+
 .layout {
     display: flex;
     align-items: flex-start;
@@ -160,7 +163,12 @@
     /* PDF page breaks: keep "My Role" whole, start publications on a new page */
     .portfolio .portfolio-role { break-inside: avoid; page-break-inside: avoid; }
     /* keep each project card whole; padding stops the title's line-height crop leaking to the previous page */
-    .portfolio .portfolio-item { break-inside: avoid; page-break-inside: avoid; padding-top: 0.8rem; margin-bottom: 2rem !important; }
+    /* cards may split, but only before My Role; head, hero and overview stay together */
+    .portfolio .portfolio-item { padding-top: 0.8rem; margin-bottom: 2rem !important; }
+    .portfolio .portfolio-head, .portfolio .portfolio-links { break-after: avoid; }
+    .portfolio .portfolio-hero { break-inside: avoid; break-after: avoid; }
+    .portfolio .portfolio-overview { break-inside: avoid; }
+    .portfolio .portfolio-item h6 { break-after: avoid; }
     .portfolio .portfolio-hero:not(.portfolio-hero-img) { height: 6rem !important; min-height: 0 !important; margin-top: 1rem !important; }
     /* padding keeps the heading's negative line-height crop from leaking onto the previous page */
     .other-projects .op-item { padding-top: 0.6rem; }
