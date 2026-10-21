@@ -1,25 +1,5 @@
 [
     {
-        "logo": "Q",
-        "accent": "#c8621a",
-        "gradient": "linear-gradient(120deg,#b9540f,#f0923a 58%,#fbd3a0)",
-        "title": "Qwen3-0.6B Quantization",
-        "period": "Personal study · Aug 2026",
-        "links": {
-            "File": "https://saimino.github.io/dooho/assets/pdf/DoohoChoi_Quantization.pdf"
-        },
-        "heroTitle": "FP16 → W4",
-        "heroSub": "Personal study on post-training quantization",
-        "overview": "A personal study project on post-training quantization. I compressed <b>Qwen3-0.6B</b> to about a quarter of its FP16 size with 4-bit weights, trying common methods such as <b>RTN, GPTQ, and AWQ</b> to see how they behave on a small LLM.",
-        "roles": [
-            "<b>Simple choices mattered most.</b> Group size and the clipping range changed the results more than any of the more complex methods I tried.",
-            "<b>One metric is not enough.</b> A quantized model scored above FP16 on MMLU while its perplexity got worse, so I learned to read several metrics together.",
-            "<b>Small models make noisy benchmarks.</b> On a 0.6B model, any small change flipped about a fifth of the MMLU answers, so I compared averages over several seeds instead of single runs.",
-            "<b>Activations are harder than weights.</b> A few outlier channels were thousands of times larger than the rest, which made 4-bit activations break down."
-        ],
-        "rolesTitle": "What I Learned"
-    },
-    {
         "logo": "M",
         "accent": "#6a5be2",
         "gradient": "linear-gradient(120deg,#5b4bd4,#8f7bff 55%,#c9b8ff)",
@@ -74,5 +54,25 @@
         "heroImgOnGradient": true,
         "heroLeft": "Text",
         "heroRight": "Image"
+    },
+    {
+        "logo": "Q",
+        "accent": "#c8621a",
+        "gradient": "linear-gradient(120deg,#b9540f,#f0923a 58%,#fbd3a0)",
+        "title": "Qwen3-0.6B Quantization",
+        "period": "Personal study · Aug 2026",
+        "links": {
+            "File": "https://saimino.github.io/dooho/assets/pdf/DoohoChoi_Quantization.pdf"
+        },
+        "heroTitle": "FP16 → W4",
+        "heroSub": "Personal study on post-training quantization",
+        "overview": "A personal study project on post-training quantization. I compressed <b>Qwen3-0.6B</b> to about a quarter of its FP16 size with 4-bit weights, trying common methods such as <b>RTN, GPTQ, and AWQ</b> to see how they behave on a small LLM.",
+        "roles": [
+            "<b>Simple choices mattered most.</b> Group size and the clipping range changed the results more than any of the more complex methods I tried.",
+            "<b>One metric is not enough.</b> A quantized model scored above FP16 on MMLU while its perplexity got worse, so I learned to read several metrics together.",
+            "<b>Small models make noisy benchmarks.</b> On a 0.6B model, any small change flipped about a fifth of the MMLU answers, so I compared averages over several seeds instead of single runs.",
+            "<b>Activations are harder than weights.</b> A few outlier channels were thousands of times larger than the rest, which made 4-bit activations break down."
+        ],
+        "rolesTitle": "What I Learned"
     }
 ]
