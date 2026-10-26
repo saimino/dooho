@@ -168,7 +168,6 @@ html { overflow-y: scroll; }
     .portfolio .portfolio-head, .portfolio .portfolio-links { break-after: avoid; }
     .portfolio .portfolio-hero { break-inside: avoid; break-after: avoid; }
     .portfolio .portfolio-overview { break-inside: avoid; }
-    .portfolio .portfolio-section { break-inside: avoid; page-break-inside: avoid; }
     .portfolio .portfolio-item h6 { break-after: avoid; }
     .portfolio .portfolio-hero:not(.portfolio-hero-img) { height: 6rem !important; min-height: 0 !important; margin-top: 1rem !important; }
     /* padding keeps the heading's negative line-height crop from leaking onto the previous page */

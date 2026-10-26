@@ -43,29 +43,17 @@ const Portfolio = ({PortfolioItemData}) => {
                                 </div>
                             )}
 
-                            {item.sections ? item.sections.map((sec, sIdx) => (
-                                <div className="portfolio-section" key={sIdx}>
-                                    <h6>{sec.title}</h6>
-                                    <ul className="star-list">
-                                        {sec.items.map((text, index) => (
-                                            <li key={index} dangerouslySetInnerHTML={{__html: text}} />
-                                        ))}
-                                    </ul>
-                                </div>
-                            )) : (
-                                <React.Fragment>
-                                    <h6>Overview</h6>
-                                    <p className="portfolio-overview" dangerouslySetInnerHTML={{__html: item.overview}} />
-                                    <div className="portfolio-role">
-                                        <h6>{item.rolesTitle || 'My Role'}</h6>
-                                        <ul className="star-list">
-                                            {item.roles.map((role, index) => (
-                                                <li key={index} dangerouslySetInnerHTML={{__html: role}} />
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </React.Fragment>
-                            )}
+                            <h6>Overview</h6>
+                            <p className="portfolio-overview" dangerouslySetInnerHTML={{__html: item.overview}} />
+
+                            <div className="portfolio-role">
+                                <h6>{item.rolesTitle || 'My Role'}</h6>
+                                <ul className="star-list">
+                                    {item.roles.map((role, index) => (
+                                        <li key={index} dangerouslySetInnerHTML={{__html: role}} />
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     ))}
                 </div>
