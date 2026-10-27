@@ -14,6 +14,8 @@
         border-bottom: 1px solid #ecece8;
 
         &:last-child { border-bottom: none; }
+        // the theme adds a white bullet to every li; hidden on white, visible in dark mode
+        &::before { content: none; }
     }
 
     .news-date {

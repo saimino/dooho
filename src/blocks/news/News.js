@@ -1,11 +1,13 @@
 import React from 'react';
+import { useT } from '../../i18n/Prefs';
 
 const News = ({NewsInfoData}) => {
+    const t = useT();
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="news wrapper">
-                    <h4>News</h4>
+                    <h4>{t('news')}</h4>
                     <ul className="news-list">
                         {NewsInfoData.map((item, key) => (
                             <li className="news-item" key={key}>

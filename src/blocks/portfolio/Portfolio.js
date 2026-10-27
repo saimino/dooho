@@ -1,11 +1,13 @@
 import React from 'react';
+import { useT } from '../../i18n/Prefs';
 
 const Portfolio = ({PortfolioItemData}) => {
+    const t = useT();
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="portfolio wrapper">
-                    <h4>Projects</h4>
+                    <h4>{t('projects')}</h4>
                     {PortfolioItemData.map((item, key) => (
                         <div className="portfolio-item" key={key}>
                             <div className="portfolio-head">
@@ -43,11 +45,11 @@ const Portfolio = ({PortfolioItemData}) => {
                                 </div>
                             )}
 
-                            <h6>Overview</h6>
+                            <h6>{t('overview')}</h6>
                             <p className="portfolio-overview" dangerouslySetInnerHTML={{__html: item.overview}} />
 
                             <div className="portfolio-role">
-                                <h6>{item.rolesTitle || 'My Role'}</h6>
+                                <h6>{item.rolesTitle || t('myRole')}</h6>
                                 <ul className="star-list">
                                     {item.roles.map((role, index) => (
                                         <li key={index} dangerouslySetInnerHTML={{__html: role}} />

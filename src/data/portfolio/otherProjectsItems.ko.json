@@ -1,0 +1,146 @@
+{
+    "menu": [
+        "개인 프로젝트",
+        "특허 및 소프트웨어",
+        "발표",
+        "수상",
+        "연구 참여"
+    ],
+    "items": {
+        "특허 및 소프트웨어": [
+            {
+                "title": "심볼릭 음악 생성 방법 및 장치",
+                "period": "2025 출원",
+                "role": "특허 10-2025-0139998",
+                "desc": "<b>MIDILM 연구</b>를 바탕으로 한 심볼릭 음악 생성 특허입니다.",
+                "links": {}
+            },
+            {
+                "title": "심볼릭 음악 예측 모델 학습 방법",
+                "period": "2025 출원",
+                "role": "특허 10-2025-0139997",
+                "links": {}
+            },
+            {
+                "title": "LLM 기반 정보 검색 및 QA 시스템",
+                "period": "2024 출원",
+                "role": "특허 10-2024-0118146",
+                "links": {}
+            },
+            {
+                "title": "LLM 기반 정보 검색 및 QA 시스템 (소프트웨어)",
+                "period": "2024 등록",
+                "role": "SW 저작권 C-2024-026547",
+                "links": {}
+            }
+        ],
+        "발표": [
+            {
+                "title": "CoMIDI: MIDILM 기반 MIDI 생성 서비스",
+                "period": "2026",
+                "role": "Jeonghyeon Im, Dooho Choi, Shuyu Li, Yunsick Sung",
+                "desc": "AAAI 2026에 채택된 MIDILM을 기반으로 <b>MIDI 생성 서비스 CoMIDI</b>를 개발하고 데모 세션에서 발표했습니다.",
+                "links": {
+                    "Link": "https://music-informatics.kr/conferences/ksmi2026"
+                }
+            },
+            {
+                "title": "2025 AI Festa: 자연어 기반 MIDI 생성 프레임워크",
+                "period": "2025. 09. 30 ~ 10. 02",
+                "role": "과학기술정보통신부 주최 · COEX A홀 · Team MIDILM",
+                "desc": "AI Champion Program <b>우수 연구팀(100팀/630팀)</b>으로 선발되어, 전시 참여 29개 팀 중 하나로 프레임워크를 <b>전시하고 발표</b>했습니다.",
+                "links": {
+                    "News": "https://cs.dongguk.edu/article/webz/detail/1241"
+                }
+            }
+        ],
+        "개인 프로젝트": [
+            {
+                "title": "Local LLM Adapter Fine-tuning 기반 개인화 페르소나 NPC",
+                "period": "2023. 12",
+                "role": "동국대학교 2023 겨울 ICIP & 캡스톤디자인",
+                "desc": "Unity 게임 안에서 <b>Local LLM 어댑터를 파인튜닝해 개인화된 페르소나</b>를 가진 NPC 캐릭터를 구현했습니다.",
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/Unity-Local-LLM-fine-tune-NPC-a88cac10ac3e44c38b2161e1af4cf5dd?pvs=4"
+                }
+            },
+            {
+                "title": "SKT AI BLOG",
+                "period": "2023. 12",
+                "role": "2023 SKT 기업사회맞춤형 캡스톤디자인",
+                "desc": "<b>LLM LoRA 학습</b>으로 블로그 작성을 돕는 AI 어시스턴트를 개발했습니다.",
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4"
+                }
+            },
+            {
+                "title": "지역별 전기차·충전소 현황 분석",
+                "period": "2022. 02",
+                "role": "멋쟁이사자처럼(LIKELION) 프로젝트",
+                "desc": "<b>Pandas와 Folium</b>으로 지역별 전기차와 충전소 데이터를 분석하고 시각화했습니다.",
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/68cf110f12c94fc8a84160ad16db4b38?pvs=4"
+                }
+            },
+            {
+                "title": "데이콘(DACON) 잡케어 추천 알고리즘 경진대회",
+                "period": "2021. 12",
+                "role": "상위 26% (189/728)",
+                "desc": "ML 경진대회에서 <b>상위 26% (189/728)</b>를 기록했습니다. (Naive Bayes, CatBoost, Gradient Boosting 앙상블)",
+                "links": {
+                    "Link": "https://dacon.io/competitions/official/235863/leaderboard"
+                }
+            }
+        ],
+        "수상": [
+            {
+                "title": "원장상, 2023 겨울 ICIP & 캡스톤디자인",
+                "period": "2023. 12",
+                "role": "동국대학교",
+                "desc": "Local LLM 페르소나 프로젝트로 <b>원장상</b>을 수상했습니다.",
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/Unity-Local-LLM-fine-tune-NPC-a88cac10ac3e44c38b2161e1af4cf5dd?pvs=4"
+                }
+            },
+            {
+                "title": "우수상, 2023 SKT 기업사회맞춤형 캡스톤디자인",
+                "period": "2023. 12",
+                "role": "SK Telecom",
+                "desc": "SKT AI BLOG 프로젝트로 <b>우수상</b>을 수상했습니다.",
+                "links": {
+                    "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4"
+                }
+            }
+        ],
+        "연구 참여": [
+            {
+                "title": "LLM 기반 정보 검색 및 QA 시스템",
+                "period": "2024 ~ 현재",
+                "role": "특허 출원 (10-2024-0118146), SW 저작권 등록 (C-2024-026547)",
+                "desc": "문서 검색과 LLM 답변을 결합한 <b>QA 파이프라인</b>을 설계하고 구축했습니다. 이 연구는 한국연구재단(NRF) 과제 <b>문서 내부 특징을 고려한 LLM 연구</b>(2025. 09 ~)로 이어지고 있습니다.",
+                "links": {}
+            },
+            {
+                "title": "AI 운전능력평가 표준화 및 평가프로세스 개발",
+                "period": "2024. 03 ~ 2024. 08",
+                "role": "경찰청",
+                "desc": "<b>AI 기반 운전능력 평가의 표준화와 평가 프로세스 개발</b> 국가 과제에 참여했습니다.",
+                "links": {}
+            },
+            {
+                "title": "AI+X 산학협력 프로젝트 / AI 융합혁신 인재양성",
+                "period": "2024. 03 ~ 현재",
+                "role": "IITP (과학기술정보통신부)",
+                "desc": "<b>산업 도메인 데이터에 AI 모델을 적용</b>하는 과제와 인재양성 프로그램에 참여하고 있습니다.",
+                "links": {}
+            },
+            {
+                "title": "스포츠·게임 도메인 첨단 AI R&D 교육",
+                "period": "2023. 08 ~ 2023. 12",
+                "role": "한국콘텐츠진흥원(KoCCA) · 문화체육관광부",
+                "desc": "스포츠와 게임 도메인 특화 <b>AI 연구개발 실무 교육</b>을 수료했습니다.",
+                "links": {}
+            }
+        ]
+    }
+}

@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
+import { useT } from '../../i18n/Prefs';
 
 const Intro = ({IntroInfoData, showStatements = true, showSkills = true}) => {
+    const t = useT();
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
@@ -14,7 +16,7 @@ const Intro = ({IntroInfoData, showStatements = true, showSkills = true}) => {
 
                     {IntroInfoData.interests && (
                         <Fragment>
-                            <h4>Research interests</h4>
+                            <h4>{t('researchInterests')}</h4>
                             <p className="interest-note">{IntroInfoData.interests.note}</p>
                             <ul className="star-list">
                                 {IntroInfoData.interests.items.map((it, key) => (

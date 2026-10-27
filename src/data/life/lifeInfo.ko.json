@@ -1,0 +1,32 @@
+{
+    "headline": "<mark>텍스트를 음악과 이미지로</mark> 바꾸는 모델을 만듭니다",
+    "paragraphs": [
+        "밴드에서 <b>🎤 노래</b>를 하고 <b>🎸 기타</b>와 <b>🥁 드럼</b>을 연주합니다. 음악을 좋아하다 보니 자연스럽게 <b>Text-to-MIDI 연구</b>로 이어졌습니다. <b>꾸준한 습관</b>의 힘을 믿고, 좋은 사람들과 좋은 것을 <b>🍲 먹고, 🌅 보고, 🎧 듣는 것</b>을 좋아합니다. 더 좋은 팀워크를 위해 <b>소통</b>도 꾸준히 연습하고 있습니다."
+    ],
+    "photos": [
+        {
+            "img": "aaai_solo.jpg",
+            "alt": "싱가포르 AAAI 2026에서"
+        },
+        {
+            "img": "aaai_poster.jpg",
+            "alt": "AAAI 2026 MIDILM 포스터 세션, 싱가포르"
+        },
+        {
+            "img": "midi_service_poster.jpg",
+            "alt": "MIDI 생성 서비스 포스터 발표"
+        },
+        {
+            "img": "band.jpg",
+            "alt": "밴드에서 노래하며 기타 연주"
+        },
+        {
+            "img": "drums.jpg",
+            "alt": "드럼 연주"
+        },
+        {
+            "img": "sushi.jpg",
+            "alt": "친구들과 회전초밥"
+        }
+    ]
+}

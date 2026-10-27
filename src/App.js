@@ -5,6 +5,7 @@ import About from './pages/About';
 import Cv from './pages/Cv';
 import NewsPage from './pages/News';
 import page404 from './pages/404';
+import { PrefsProvider } from './i18n/Prefs';
 
 import { createBrowserHistory } from 'history';
 
@@ -26,6 +27,7 @@ function ScrollToTop() {
 function App() {
     return (
         <React.StrictMode>
+            <PrefsProvider>
             <BrowserRouter basename={process.env.PUBLIC_URL} history={history}>
                 <ScrollToTop />
                 <Switch>
@@ -52,6 +54,7 @@ function App() {
                     <Redirect to="/" />
                 </Switch>
             </BrowserRouter>
+            </PrefsProvider>
         </React.StrictMode>
     );
 }

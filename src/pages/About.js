@@ -6,11 +6,14 @@ import Footer from '../blocks/footer/Footer';
 
 import AboutMe from '../blocks/aboutme/AboutMe';
 import LifeInfoData from '../data/life/lifeInfo.json';
+import LifeInfoDataKo from '../data/life/lifeInfo.ko.json';
+import { useLocalized } from '../i18n/Prefs';
 
 const About = () => {
     document.body.classList.add( 'about' );
     document.body.classList.add( 'bg-fixed' );
     document.body.classList.add( 'bg-color-custom' );
+    const lifeInfo = useLocalized(LifeInfoData, LifeInfoDataKo);
 
     return (
         <Fragment>
@@ -32,7 +35,7 @@ const About = () => {
             <div className="layout">
                 <Sidebar/>
                 <main id="main" className="site-main layout-content">
-                    <AboutMe LifeInfoData={LifeInfoData}/>
+                    <AboutMe LifeInfoData={lifeInfo}/>
                     <Footer />
                 </main>
             </div>

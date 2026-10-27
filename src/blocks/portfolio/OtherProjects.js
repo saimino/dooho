@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import PublicationItemData from '../../data/publication/publicationItems.json';
+import { useT } from '../../i18n/Prefs';
 
-const PUBLICATIONS = 'All Publications';
+const PUBLICATIONS = 'publications';
 
 const pillName = (key) => key.charAt(0).toUpperCase() + key.slice(1);
 
@@ -36,28 +37,31 @@ const PublicationItems = () => PublicationItemData.map((item, key) => (
 ));
 
 const OtherProjects = ({OtherProjectsItemData}) => {
+    const t = useT();
     const menu = [PUBLICATIONS, ...OtherProjectsItemData.menu];
-    const [selected, setSelected] = useState(menu[0]);
+    // keep the selection by position so it survives a language switch
+    const [selected, setSelected] = useState(0);
+    const label = (name) => name === PUBLICATIONS ? t('allPublications') : name;
 
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="other-projects wrapper">
-                    <h4>Other Projects</h4>
+                    <h4>{t('otherProjects')}</h4>
 
                     <div className="op-filter">
                         {menu.map((name, key) => (
                             <button key={key}
-                                    className={"op-filter-btn" + (name === selected ? " active" : "")}
-                                    onClick={() => setSelected(name)}>
-                                {name}
+                                    className={"op-filter-btn" + (key === selected ? " active" : "")}
+                                    onClick={() => setSelected(key)}>
+                                {label(name)}
                             </button>
                         ))}
                     </div>
 
-                    {menu.map((name) => (
-                        <div key={name} className={"op-group" + (name === selected ? " active" : "")}>
-                            <h5 className="op-group-title">{name}</h5>
+                    {menu.map((name, index) => (
+                        <div key={name} className={"op-group" + (index === selected ? " active" : "")}>
+                            <h5 className="op-group-title">{label(name)}</h5>
                             {name === PUBLICATIONS ? <PublicationItems/> :
                                 (OtherProjectsItemData.items[name] || []).map((item, key) => (
                                 <div className="op-item" key={name + key}>

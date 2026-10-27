@@ -1,16 +1,18 @@
 import React from 'react';
+import { useT } from '../../i18n/Prefs';
 
 const CvViewer = ({file = '/assets/pdf/DoohoChoi_CV.pdf'}) => {
     const src = process.env.PUBLIC_URL + file;
+    const t = useT();
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="cv-viewer wrapper">
                     <div className="cv-viewer-head">
-                        <h4>Curriculum Vitae</h4>
+                        <h4>{t('cvTitle')}</h4>
                         <a className="btn has-white-color has-gray-dark-background-color cv-download"
                            href={src} target="_blank" rel="noreferrer" download>
-                            Download PDF
+                            {t('downloadPdf')}
                         </a>
                     </div>
                     <object className="cv-viewer-frame" data={src + '#view=FitH'} type="application/pdf"

@@ -7,13 +7,17 @@ import Footer from '../blocks/footer/Footer';
 
 import Intro from '../blocks/intro/Intro'
 import IntroInfoData from '../data/intro/introInfo.json';
+import IntroInfoDataKo from '../data/intro/introInfo.ko.json';
 
 import Portfolio from '../blocks/portfolio/Portfolio'
 import PortfolioItemData from '../data/portfolio/portfolioItems.json';
+import PortfolioItemDataKo from '../data/portfolio/portfolioItems.ko.json';
 
 
 import OtherProjects from '../blocks/portfolio/OtherProjects';
 import OtherProjectsItemData from '../data/portfolio/otherProjectsItems.json';
+import OtherProjectsItemDataKo from '../data/portfolio/otherProjectsItems.ko.json';
+import { useLocalized } from '../i18n/Prefs';
 
 
 const Home = () => {
@@ -21,6 +25,9 @@ const Home = () => {
     document.body.classList.add( 'bg-fixed' );
     document.body.classList.add( 'bg-color-custom' );
     // document.body.classList.add( 'bg-line' );
+    const introInfo = useLocalized(IntroInfoData, IntroInfoDataKo);
+    const portfolioItems = useLocalized(PortfolioItemData, PortfolioItemDataKo);
+    const otherProjectsItems = useLocalized(OtherProjectsItemData, OtherProjectsItemDataKo);
     return (
         <Fragment>
             <MetaTags>
@@ -42,9 +49,9 @@ const Home = () => {
             <div className="layout">
                 <Sidebar/>
                 <main id="main" className="site-main font-family layout-content">
-                    <Intro IntroInfoData={IntroInfoData} showStatements={false} showSkills={false}/>
-                    <Portfolio PortfolioItemData={PortfolioItemData}/>
-                    <OtherProjects OtherProjectsItemData={OtherProjectsItemData}/>
+                    <Intro IntroInfoData={introInfo} showStatements={false} showSkills={false}/>
+                    <Portfolio PortfolioItemData={portfolioItems}/>
+                    <OtherProjects OtherProjectsItemData={otherProjectsItems}/>
                     <Footer />
                 </main>
             </div>

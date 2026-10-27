@@ -1,0 +1,82 @@
+[
+    {
+        "date": "2026. 08",
+        "contents": "동국대학교에서 <b>석사 학위</b>를 받았습니다 (지도교수: 성연식).",
+        "links": {}
+    },
+    {
+        "date": "2026",
+        "contents": "MIDILM 기반 MIDI 생성 서비스 <b>CoMIDI</b>를 <b>KSMI 2026</b> 데모 세션에서 발표했습니다. <b>MidiFill</b>도 KSMI 2026에서 발표했습니다.",
+        "links": { "Link": "https://music-informatics.kr/conferences/ksmi2026" }
+    },
+    {
+        "date": "2026",
+        "contents": "<b>Few-shot LoRA Tuning for Genre-Specific Music Generation</b> 논문이 <b>Complex &amp; Intelligent Systems</b>에 게재되었습니다.",
+        "links": { "Paper": "https://doi.org/10.1007/s40747-026-02285-5" }
+    },
+    {
+        "date": "2026. 01",
+        "contents": "<b>AAAI 2026</b>에서 <b>MIDILM</b> 포스터를 발표했습니다.",
+        "links": { "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483/43444", "Demo": "https://large-multimodal-model-lab.github.io/MIDILM/" }
+    },
+    {
+        "date": "2025. 11",
+        "contents": "<b>MIDILM: A Dual-Path Model for Controllable Text-to-MIDI Generation</b> 논문이 <b>AAAI 2026</b> (Main Track)에 채택되었습니다! 🎉",
+        "links": {}
+    },
+    {
+        "date": "2025",
+        "contents": "MIDILM 연구를 바탕으로 심볼릭 음악 생성 특허 2건을 출원했습니다 (10-2025-0139998, 10-2025-0139997).",
+        "links": {}
+    },
+    {
+        "date": "2025. 09. 30 ~ 10. 02",
+        "contents": "Team MIDILM이 <b>2025 AI Festa</b> (COEX A홀)에서 전시 참여 29개 팀 중 하나로 자연어 기반 MIDI 생성 프레임워크를 <b>전시하고 발표</b>했습니다.",
+        "links": { "News": "https://cs.dongguk.edu/article/webz/detail/1241" }
+    },
+    {
+        "date": "2025",
+        "contents": "과학기술정보통신부 주최 <b>AI Champion Program</b>에서 <b>우수 연구팀(100팀/630팀)</b>으로 선발되었습니다! 🏆",
+        "links": {}
+    },
+    {
+        "date": "2025",
+        "contents": "<b>PixTention: Dynamic Pixel-level Adapter using Attention Maps</b> 논문이 <b>Image and Vision Computing (IVC)</b>에 게재되었습니다.",
+        "links": { "Paper": "https://doi.org/10.1016/j.imavis.2025.105746" }
+    },
+    {
+        "date": "2025",
+        "contents": "<b>Enhanced BLIP-2 Optimization Using LoRA for Generating Dashcam Captions</b> 논문이 <b>Applied Sciences</b>에 게재되었습니다.",
+        "links": { "Paper": "https://doi.org/10.3390/app15073712" }
+    },
+    {
+        "date": "2025",
+        "contents": "<b>EAAI</b> (Elsevier)와 <b>IEEE TCSVT</b>의 리뷰어로 활동을 시작했습니다.",
+        "links": {}
+    },
+    {
+        "date": "2024. 11",
+        "contents": "<b>LoRA Fusion: Enhancing Image Generation</b> 논문이 <b>Mathematics</b>에 게재되었습니다.",
+        "links": { "Paper": "https://doi.org/10.3390/math12223474" }
+    },
+    {
+        "date": "2024",
+        "contents": "<b>LLM 기반 정보 검색 및 QA 시스템</b>으로 특허를 출원하고 (10-2024-0118146) SW 저작권을 등록했습니다 (C-2024-026547).",
+        "links": {}
+    },
+    {
+        "date": "2024. 03",
+        "contents": "<b>동국대학교</b> 석사과정을 시작했습니다 (Large Multimodal Model Lab, 지도교수: 성연식).",
+        "links": {}
+    },
+    {
+        "date": "2023. 12",
+        "contents": "동국대학교 2023 겨울 ICIP &amp; 캡스톤디자인에서 Local LLM 페르소나 NPC 프로젝트로 <b>원장상</b>을 수상했습니다. 🏆",
+        "links": { "Notion": "https://marvelous-gondola-191.notion.site/Unity-Local-LLM-fine-tune-NPC-a88cac10ac3e44c38b2161e1af4cf5dd?pvs=4" }
+    },
+    {
+        "date": "2023. 12",
+        "contents": "2023 SKT 기업사회맞춤형 캡스톤디자인에서 SKT AI BLOG 프로젝트로 <b>우수상</b>을 수상했습니다. 🏆",
+        "links": { "Notion": "https://marvelous-gondola-191.notion.site/SKT-AI-BLOG-52cc6a2a28c14448990a457d2d1e274a?pvs=4" }
+    }
+]

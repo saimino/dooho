@@ -6,11 +6,14 @@ import Footer from '../blocks/footer/Footer';
 
 import News from '../blocks/news/News';
 import NewsInfoData from '../data/news/newsinfo.json';
+import NewsInfoDataKo from '../data/news/newsinfo.ko.json';
+import { useLocalized } from '../i18n/Prefs';
 
 const NewsPage = () => {
     document.body.classList.add( 'about' );
     document.body.classList.add( 'bg-fixed' );
     document.body.classList.add( 'bg-color-custom' );
+    const newsInfo = useLocalized(NewsInfoData, NewsInfoDataKo);
 
     return (
         <Fragment>
@@ -30,7 +33,7 @@ const NewsPage = () => {
             <div className="layout">
                 <Sidebar/>
                 <main id="main" className="site-main layout-content">
-                    <News NewsInfoData={NewsInfoData}/>
+                    <News NewsInfoData={newsInfo}/>
                     <Footer />
                 </main>
             </div>
