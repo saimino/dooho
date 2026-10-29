@@ -22,6 +22,7 @@
         "note": "Not limited to these.",
         "items": [
             "Multimodal Model",
+            "Parameter-Efficient Fine-Tuning (PEFT)",
             "Quantization"
         ]
     }
