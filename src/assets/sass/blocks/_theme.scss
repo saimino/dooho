@@ -60,12 +60,12 @@ html[lang="ko"] .layout { word-break: keep-all; overflow-wrap: break-word; }
 // dark theme (screen only, so the PDF stays light)
 //=================================================
 
-$dk-bg:        #161615;
-$dk-surface:   #22221f;
-$dk-border:    #34342f;
-$dk-text:      #c9c9c4;
-$dk-strong:    #f0f0eb;
-$dk-muted:     #8d8d87;
+$dk-bg:        #22242a;
+$dk-surface:   #303134;
+$dk-border:    #3c4043;
+$dk-text:      #bdc1c6;
+$dk-strong:    #e8eaed;
+$dk-muted:     #9aa0a6;
 
 @media screen {
     html[data-theme="dark"] {
@@ -86,13 +86,13 @@ $dk-muted:     #8d8d87;
         // sidebar
         .sidebar {
             .sidebar-name { color: $dk-strong; }
-            .sidebar-role { color: #b4b4ae; }
+            .sidebar-role { color: #c4c7c5; }
             .sidebar-affil, .sidebar-email { color: $dk-muted; }
-            .sidebar-icons a { color: #dcdcd7; }
+            .sidebar-icons a { color: #dadce0; }
             .sidebar-icons a:hover { color: $dk-muted; }
             .sidebar-nav {
                 border-top-color: $dk-border;
-                a { color: #dcdcd7; }
+                a { color: #dadce0; }
                 a:hover { background: $dk-surface; }
                 a.active { background: $dk-strong; color: $dk-bg; }
             }
@@ -103,13 +103,13 @@ $dk-muted:     #8d8d87;
             .prefs-btn {
                 background: $dk-surface;
                 border-color: $dk-border;
-                color: #dcdcd7;
-                &:hover { background: #2c2c28; }
+                color: #dadce0;
+                &:hover { background: #3c3d41; }
             }
             .prefs-lang {
-                span { color: #75756f; }
+                span { color: #80868b; }
                 span.on { color: $dk-strong; }
-                .sep { color: #55554f; }
+                .sep { color: #5f6368; }
             }
         }
 
@@ -119,7 +119,7 @@ $dk-muted:     #8d8d87;
             .intro-headline mark { box-shadow: inset 0 -0.55em 0 rgba(214, 160, 70, 0.38); }
             .interest-note { color: $dk-muted; }
         }
-        .star-list li::before { background: #77776f; }
+        .star-list li::before { background: #80868b; }
 
         // portfolio cards
         .portfolio {
@@ -129,22 +129,22 @@ $dk-muted:     #8d8d87;
             .portfolio-pill {
                 background: $dk-surface;
                 border-color: $dk-border;
-                color: #dcdcd7 !important;
+                color: #dadce0 !important;
                 .arrow { color: $dk-muted; }
-                &:hover { background: #2c2c28; }
+                &:hover { background: #3c3d41; }
             }
         }
 
         // other projects
         .other-projects {
             .op-period, .op-venue { color: $dk-muted; }
-            .op-role { color: #a3a39d; }
+            .op-role { color: #a8acb1; }
             .op-desc, .op-authors { color: $dk-text; }
             .op-filter-btn {
                 background: $dk-surface;
                 border-color: $dk-border;
-                color: #b4b4ae;
-                &:hover { background: #2c2c28; }
+                color: #c4c7c5;
+                &:hover { background: #3c3d41; }
                 &.active { background: $dk-strong; border-color: $dk-strong; color: $dk-bg; }
             }
         }
