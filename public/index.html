@@ -11,13 +11,11 @@
     </script>
     <meta charset="utf-8" />
     <script>
-      // apply the saved (or system) theme before the first paint
+      // apply the saved theme before the first paint (light unless the visitor chose dark)
       (function () {
         var t = null;
         try { t = localStorage.getItem('theme'); } catch (e) {}
-        if (t !== 'dark' && t !== 'light') {
-          t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        }
+        if (t !== 'dark') t = 'light';
         document.documentElement.setAttribute('data-theme', t);
         try { if (localStorage.getItem('lang') === 'ko') document.documentElement.lang = 'ko'; } catch (e) {}
       })();
