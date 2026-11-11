@@ -41,6 +41,11 @@
     },
     {
         "date": "2025",
+        "contents": "Started serving as a reviewer for <b>EAAI</b> (Elsevier) and <b>TCSVT</b> (IEEE).",
+        "links": {}
+    },
+    {
+        "date": "2025",
         "contents": "<b>PixTention: Dynamic Pixel-level Adapter using Attention Maps</b> published in <b>Image and Vision Computing (IVC)</b>.",
         "links": { "Paper": "https://doi.org/10.1016/j.imavis.2025.105746" }
     },
@@ -48,11 +53,6 @@
         "date": "2025",
         "contents": "<b>Enhanced BLIP-2 Optimization Using LoRA for Generating Dashcam Captions</b> published in <b>Applied Sciences</b>.",
         "links": { "Paper": "https://doi.org/10.3390/app15073712" }
-    },
-    {
-        "date": "2025",
-        "contents": "Started serving as a reviewer for <b>EAAI</b> (Elsevier) and <b>IEEE TCSVT</b>.",
-        "links": {}
     },
     {
         "date": "Nov 2024",

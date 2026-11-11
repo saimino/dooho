@@ -41,6 +41,11 @@
     },
     {
         "date": "2025",
+        "contents": "<b>EAAI</b> (Elsevier)와 <b>TCSVT</b> (IEEE)의 리뷰어로 활동을 시작했습니다.",
+        "links": {}
+    },
+    {
+        "date": "2025",
         "contents": "<b>PixTention: Dynamic Pixel-level Adapter using Attention Maps</b> 논문이 <b>Image and Vision Computing (IVC)</b>에 게재되었습니다.",
         "links": { "Paper": "https://doi.org/10.1016/j.imavis.2025.105746" }
     },
@@ -48,11 +53,6 @@
         "date": "2025",
         "contents": "<b>Enhanced BLIP-2 Optimization Using LoRA for Generating Dashcam Captions</b> 논문이 <b>Applied Sciences</b>에 게재되었습니다.",
         "links": { "Paper": "https://doi.org/10.3390/app15073712" }
-    },
-    {
-        "date": "2025",
-        "contents": "<b>EAAI</b> (Elsevier)와 <b>IEEE TCSVT</b>의 리뷰어로 활동을 시작했습니다.",
-        "links": {}
     },
     {
         "date": "2024. 11",
