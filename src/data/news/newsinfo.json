@@ -20,6 +20,11 @@
         "links": { "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39483/43444", "Demo": "https://large-multimodal-model-lab.github.io/MIDILM/" }
     },
     {
+        "date": "Jan 2026",
+        "contents": "Started serving as a reviewer for <b>EAAI</b> (Elsevier) and <b>TCSVT</b> (IEEE).",
+        "links": {}
+    },
+    {
         "date": "Nov 2025",
         "contents": "<b>MIDILM: A Dual-Path Model for Controllable Text-to-MIDI Generation</b> accepted to <b>AAAI 2026</b> (Main Track)! 🎉",
         "links": {}
@@ -37,11 +42,6 @@
     {
         "date": "2025",
         "contents": "Selected as a <b>Top-100 team (of 630)</b> in the <b>AI Champion Program</b> hosted by the Ministry of Science and ICT! 🏆",
-        "links": {}
-    },
-    {
-        "date": "2025",
-        "contents": "Started serving as a reviewer for <b>EAAI</b> (Elsevier) and <b>TCSVT</b> (IEEE).",
         "links": {}
     },
     {
